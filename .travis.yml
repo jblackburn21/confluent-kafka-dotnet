@@ -27,3 +27,16 @@ install:
 script:
    - make build
    - make test
+   - make pack
+
+deploy:
+  provider: releases
+  api_key:
+    secure: ikROxEgQzURU6Ry6dzz1klq7zn2rWmKLfbLBcDXo9pIAAsJvHC3Fgyv3PHJ7flJX8Y5pF7xaq+U03fc5pCHyDpVGNwkolOnhq2wW8ZUeQz4btaqWfJqQ8+FKSHdCiY6L2v18RMrPiv5d9bUvyw5xIrCFTj8eujFqnX8OMRhLy2tKqaOwmUcs9IL6DyeclAubswnjJB1Yu9KyfFlr6mKVMIyfuCea2e+bDS/GFLvzFtCkDla5giTlFBkPlwpUwlPdy+oU3rQQDEfRboYFM7JJj9+S6qSIlQB9WlNSbvwtcJT0L/WBoykw+DPlRbX+1espRVtEgCX2pSe6bkYP+WSkk6ma5/rpaGX0crPIuOQCxLi9pC1j6SnVFRxR4fnQiqy/v4mVums4YpV/fKHH+SWbi2FbqpqlCrUgxEWdHblL/lPgMsS8hhUYxkzDNZw0ZG2NP44HioX79Ef8iw40JEXHO1q6MrSAoI9YFFDpSZs1rT9DZyJJ3g9UHY1RoOHUUhdeKwhSrSm1Y7igfpj2nnnG5OiNzpktpwP0kXU86XAcyteaRHmX2QsqZnN30LY2b6vAX24za+RHZ2UEF/DwtisgZjJ1dYDNUKYXFVGYl6J+mrmpMwN4dHX3R1zy5qVqAElJr82psjnI7KJslwECyM9P16HxJeQR2mdCKJT9K0bQcL0=
+  file_glob: true
+  file: src/**/Release/*.nupkg
+  skip_cleanup: true
+  on:
+    repo: csdisco/confluent-kafka-dotnet
+    tags: true
+    condition: "$CONFIGURATION == 'Release'"
