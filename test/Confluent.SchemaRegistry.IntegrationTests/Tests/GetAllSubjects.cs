@@ -26,18 +26,54 @@ namespace Confluent.SchemaRegistry.IntegrationTests
         [Theory, MemberData(nameof(SchemaRegistryParameters))]
         public static void GetAllSubjects(Config config)
         {
+            GetAllSubjects(new []{ new KeyValuePair<string, string>( "schema.registry.url", config.Server ) });
+        }
+        
+        [Theory, MemberData(nameof(SchemaRegistryParameters))]
+        public static void GetAllSubjectsTopicNameStrategy(string server)
+        {
+            GetAllSubjects(new []
+            {
+                new KeyValuePair<string, string>( "schema.registry.url", server ),
+                new KeyValuePair<string, string>( "schema.registry.subject.name.strategy", "topic_name_strategy" )
+            });
+        }
+        
+        [Theory, MemberData(nameof(SchemaRegistryParameters))]
+        public static void GetAllSubjectsRecordNameStrategy(string server)
+        {
+            GetAllSubjects(new []
+            {
+                new KeyValuePair<string, string>( "schema.registry.url", server ),
+                new KeyValuePair<string, string>( "schema.registry.subject.name.strategy", "record_name_strategy" )
+            });
+        }
+        
+        [Theory, MemberData(nameof(SchemaRegistryParameters))]
+        public static void GetAllSubjectsTopicRecordNameStrategy(string server)
+        {
+            GetAllSubjects(new []
+            {
+                new KeyValuePair<string, string>( "schema.registry.url", server ),
+                new KeyValuePair<string, string>( "schema.registry.subject.name.strategy", "topic_record_name_strategy" )
+            });
+        }
+        
+        private static void GetAllSubjects(IEnumerable<KeyValuePair<string, string>> config)
+        {
             var topicName = Guid.NewGuid().ToString();
+            var schemaName = Guid.NewGuid().ToString();
 
             var testSchema1 = 
                 "{\"type\":\"record\",\"name\":\"User\",\"namespace\":\"Confluent.Kafka.Examples.AvroSpecific" +
                 "\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"favorite_number\",\"type\":[\"i" +
                 "nt\",\"null\"]},{\"name\":\"favorite_color\",\"type\":[\"string\",\"null\"]}]}";
 
-            var sr = new CachedSchemaRegistryClient(new SchemaRegistryConfig { SchemaRegistryUrl = config.Server });
+            var sr = new CachedSchemaRegistryClient(config);
 
             var subjectsBefore = sr.GetAllSubjectsAsync().Result;
 
-            var subject = sr.ConstructKeySubjectName(topicName);
+            var subject = sr.ConstructKeySubjectName(topicName, schemaName);
             var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;
 
             var subjectsAfter = sr.GetAllSubjectsAsync().Result;

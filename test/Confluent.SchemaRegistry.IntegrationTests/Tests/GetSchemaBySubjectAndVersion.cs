@@ -26,21 +26,54 @@ namespace Confluent.SchemaRegistry.IntegrationTests
         [Theory, MemberData(nameof(SchemaRegistryParameters))]
         public static void GetSchemaBySubjectAndVersion(Config config)
         {
+            GetSchemaBySubjectAndVersion(new[] {new KeyValuePair<string, string>("schema.registry.url", config.Server) });
+        }
+        
+        [Theory, MemberData(nameof(SchemaRegistryParameters))]
+        public static void GetSchemaBySubjectAndVersionTopicNameStrategy(string server)
+        {GetSchemaBySubjectAndVersion(new []
+            {
+                new KeyValuePair<string, string>( "schema.registry.url", server ),
+                new KeyValuePair<string, string>( "schema.registry.subject.name.strategy", "topic_name_strategy" )
+            });
+        }
+        
+        [Theory, MemberData(nameof(SchemaRegistryParameters))]
+        public static void GetSchemaBySubjectAndVersionRecordNameStrategy(string server)
+        {GetSchemaBySubjectAndVersion(new []
+            {
+                new KeyValuePair<string, string>( "schema.registry.url", server ),
+            new KeyValuePair<string, string>("schema.registry.subject.name.strategy", "record_name_strategy" )
+            });
+        }
+        
+        [Theory, MemberData(nameof(SchemaRegistryParameters))]
+        public static void GetSchemaBySubjectAndVersionTopicRecordNameStrategy(string server)
+        {
+            GetSchemaBySubjectAndVersion(new[]
+            {
+                new KeyValuePair<string, string>("schema.registry.url", server),
+                new KeyValuePair<string, string>("schema.registry.subject.name.strategy", "topic_record_name_strategy")
+            });
+        }
+        
+        private static void GetSchemaBySubjectAndVersion(IEnumerable<KeyValuePair<string, string>> config)
+        {
             var topicName = Guid.NewGuid().ToString();
-
+    
             var testSchema1 = 
                 "{\"type\":\"record\",\"name\":\"User\",\"namespace\":\"Confluent.Kafka.Examples.AvroSpecific" +
                 "\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"favorite_number\",\"type\":[\"i" +
                 "nt\",\"null\"]},{\"name\":\"favorite_color\",\"type\":[\"string\",\"null\"]}]}";
-
-            var sr = new CachedSchemaRegistryClient(new SchemaRegistryConfig { SchemaRegistryUrl = config.Server });
-
-            var subject = sr.ConstructValueSubjectName(topicName);
+    
+            var sr = new CachedSchemaRegistryClient(config);
+    
+            var subject = sr.ConstructValueSubjectName(topicName, "Confluent.Kafka.Examples.AvroSpecific.User");
             var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;
-
+    
             var schema = sr.GetLatestSchemaAsync(subject).Result;
             var schemaString = sr.GetSchemaAsync(subject, schema.Version).Result;
-
+    
             Assert.Equal(schemaString, testSchema1);
         }
     }

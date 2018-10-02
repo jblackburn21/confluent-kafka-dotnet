@@ -33,6 +33,8 @@ namespace Confluent.SchemaRegistry.IntegrationTests
                 "\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"favorite_number\",\"type\":[\"i" +
                 "nt\",\"null\"]},{\"name\":\"favorite_color\",\"type\":[\"string\",\"null\"]}]}";
 
+            var schemaName = "User";
+
             // 1. valid configuration cases
 
             // 1.1. credentials specified as USER_INFO.
@@ -45,7 +47,7 @@ namespace Confluent.SchemaRegistry.IntegrationTests
             using (var sr = new CachedSchemaRegistryClient(conf))
             {
                 var topicName = Guid.NewGuid().ToString();
-                var subject = sr.ConstructValueSubjectName(topicName);
+                var subject = sr.ConstructValueSubjectName(topicName, schemaName);
                 var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;
                 var schema = sr.GetLatestSchemaAsync(subject).Result;
                 Assert.Equal(schema.Id, id);
@@ -60,7 +62,7 @@ namespace Confluent.SchemaRegistry.IntegrationTests
             using (var sr = new CachedSchemaRegistryClient(conf2))
             {
                 var topicName = Guid.NewGuid().ToString();
-                var subject = sr.ConstructValueSubjectName(topicName);
+                var subject = sr.ConstructValueSubjectName(topicName, schemaName);
                 var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;
                 var schema = sr.GetLatestSchemaAsync(subject).Result;
                 Assert.Equal(schema.Id, id);
@@ -77,7 +79,7 @@ namespace Confluent.SchemaRegistry.IntegrationTests
                 }))
             {
                 var topicName = Guid.NewGuid().ToString();
-                var subject = sr.ConstructValueSubjectName(topicName);
+                var subject = sr.ConstructValueSubjectName(topicName, schemaName);
                 var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;
                 var schema = sr.GetLatestSchemaAsync(subject).Result;
                 Assert.Equal(schema.Id, id);
@@ -91,7 +93,7 @@ namespace Confluent.SchemaRegistry.IntegrationTests
             using (var sr = new CachedSchemaRegistryClient(conf3))
             {
                 var topicName = Guid.NewGuid().ToString();
-                var subject = sr.ConstructValueSubjectName(topicName);
+                var subject = sr.ConstructValueSubjectName(topicName, schemaName);
                 var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;
                 var schema = sr.GetLatestSchemaAsync(subject).Result;
                 Assert.Equal(schema.Id, id);
@@ -126,7 +128,7 @@ namespace Confluent.SchemaRegistry.IntegrationTests
             { 
                 var sr = new CachedSchemaRegistryClient(new SchemaRegistryConfig { SchemaRegistryUrl = config.ServerWithAuth });
                 var topicName = Guid.NewGuid().ToString();
-                var subject = sr.ConstructValueSubjectName(topicName);
+                var subject = sr.ConstructValueSubjectName(topicName, schemaName);
                 try
                 {
                     var id = sr.RegisterSchemaAsync(subject, testSchema1).Result;

@@ -131,28 +131,10 @@ namespace Confluent.SchemaRegistry
         /// </returns>
         Task<bool> IsCompatibleAsync(string subject, string schema);
 
+        /// <include file='include_docs.xml' path='API/Member[@name="ISchemaRegistryClient_ConstructKeySubjectName"]/*' />
+        string ConstructKeySubjectName(string topic, string schemaName);
 
-        /// <summary>
-        ///     Returns the schema registry key subject name given a topic name.
-        /// </summary>
-        /// <param name="topic">
-        ///     The topic name.
-        /// </param>
-        /// <returns>
-        ///     The key subject name given a topic name.
-        /// </returns>
-        string ConstructKeySubjectName(string topic);
-
-
-        /// <summary>
-        ///     Returns the schema registry value subject name given a topic name.
-        /// </summary>
-        /// <param name="topic">
-        ///     The topic name.
-        /// </param>
-        /// <returns>
-        ///     The value subject name given a topic name.
-        /// </returns>
-        string ConstructValueSubjectName(string topic);
+        /// <include file='include_docs.xml' path='API/Member[@name="ISchemaRegistryClient_ConstructValueSubjectName"]/*' />
+        string ConstructValueSubjectName(string topic, string schemaName);
     }
 }

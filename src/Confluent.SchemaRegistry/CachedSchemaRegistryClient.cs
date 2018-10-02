@@ -14,12 +14,10 @@
 //
 // Refer to LICENSE for more information.
 
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Linq;
 using System;
-using System.Threading;
-
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Confluent.SchemaRegistry
 {
@@ -34,7 +32,9 @@ namespace Confluent.SchemaRegistry
         private readonly Dictionary<string /*subject*/, Dictionary<string, int>> idBySchemaBySubject = new Dictionary<string, Dictionary<string, int>>();
         private readonly Dictionary<string /*subject*/, Dictionary<int, string>> schemaByVersionBySubject = new Dictionary<string, Dictionary<int, string>>();
         private readonly object cacheLock = new object();
-
+        
+        private readonly ISubjectNameStrategy subjectNameStrategy;
+        
         /// <summary>
         ///     The default timeout value for Schema Registry REST API calls.
         /// </summary>
@@ -78,6 +78,10 @@ namespace Confluent.SchemaRegistry
             try { this.identityMapCapacity = identityMapCapacityMaybe.Value == null ? DefaultMaxCachedSchemas : Convert.ToInt32(identityMapCapacityMaybe.Value); }
             catch (FormatException) { throw new ArgumentException($"CachedSchemaRegistryClient: configured value for {SchemaRegistryConfig.PropertyNames.SchemaRegistryMaxCachedSchemas} must be an integer."); }
 
+            var subjectNameStrategyMaybe = config.FirstOrDefault(prop => prop.Key.ToLower() == SchemaRegistryConfig.PropertyNames.SchemaRegistrySubjectNameStrategy);
+            this.subjectNameStrategy = subjectNameStrategyMaybe.Value == null ? SubjectNameStrategies.Default : 
+                SubjectNameStrategies.GetSubjectNameStrategy((string)subjectNameStrategyMaybe.Value);
+            
             // Convert.ToString returns "" in the null case here.
             var basicAuthSource = Convert.ToString(config.FirstOrDefault(prop => prop.Key.ToLower() == SchemaRegistryConfig.PropertyNames.SchemaRegistryBasicAuthCredentialsSource).Value);
             var basicAuthInfo = Convert.ToString(config.FirstOrDefault(prop => prop.Key.ToLower() == SchemaRegistryConfig.PropertyNames.SchemaRegistryBasicAuthUserInfo).Value);
@@ -136,11 +140,13 @@ namespace Confluent.SchemaRegistry
                     continue;
                 }
 
-                if (property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryUrl && 
-                    property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryRequestTimeoutMs && 
+                if (property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryUrl &&
+                    property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryRequestTimeoutMs &&
                     property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryMaxCachedSchemas &&
                     property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryBasicAuthCredentialsSource &&
-                    property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryBasicAuthUserInfo)
+                    property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistryBasicAuthUserInfo &&
+                    property.Key != SchemaRegistryConfig.PropertyNames.SchemaRegistrySubjectNameStrategy)
+
                 {
                     throw new ArgumentException($"CachedSchemaRegistryClient: unexpected configuration parameter {property.Key}");
                 }
@@ -303,20 +309,13 @@ namespace Confluent.SchemaRegistry
         public async Task<bool> IsCompatibleAsync(string subject, string schema)
             => await restService.TestLatestCompatibilityAsync(subject, schema).ConfigureAwait(continueOnCapturedContext: false);
 
+        /// <include file='include_docs.xml' path='API/Member[@name="ISchemaRegistryClient_ConstructKeySubjectName"]/*' />
+        public string ConstructKeySubjectName(string topic, string schemaName)
+            => subjectNameStrategy.ConstructSubjectName(topic, true, schemaName);
 
-        /// <summary>
-        ///     Refer to <see cref="Confluent.SchemaRegistry.ISchemaRegistryClient.ConstructKeySubjectName(string)" />
-        /// </summary>
-        public string ConstructKeySubjectName(string topic)
-            => $"{topic}-key";
-
-
-        /// <summary>
-        ///     Refer to <see cref="Confluent.SchemaRegistry.ISchemaRegistryClient.ConstructValueSubjectName(string)" />
-        /// </summary>
-        public string ConstructValueSubjectName(string topic)
-            => $"{topic}-value";
-
+        /// <include file='include_docs.xml' path='API/Member[@name="ISchemaRegistryClient_ConstructValueSubjectName"]/*' />
+        public string ConstructValueSubjectName(string topic, string schemaName)
+            => subjectNameStrategy.ConstructSubjectName(topic, false, schemaName);
 
         /// <summary>
         ///     Releases unmanaged resources owned by this CachedSchemaRegistryClient instance.

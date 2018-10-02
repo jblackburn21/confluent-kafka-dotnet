@@ -60,6 +60,11 @@ namespace Confluent.SchemaRegistry
             ///     Basic auth credentials in the form {username}:{password}.
             /// </summary>
             public const string SchemaRegistryBasicAuthUserInfo = "schema.registry.basic.auth.user.info";
+
+            /// <summary>
+            /// 
+            /// </summary>
+            public const string SchemaRegistrySubjectNameStrategy = "schema.registry.subject.name.strategy";
         }
 
         /// <summary>
