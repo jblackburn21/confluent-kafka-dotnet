@@ -109,6 +109,12 @@ namespace Confluent.SchemaRegistry
             set { SetObject(SchemaRegistryConfig.PropertyNames.SchemaRegistryBasicAuthUserInfo, value); }
         }
 
+        public string SchemaRegistrySubjectNameStrategy
+        {
+            get { return Get(SchemaRegistryConfig.PropertyNames.SchemaRegistrySubjectNameStrategy); }
+            set { SetObject(SchemaRegistryConfig.PropertyNames.SchemaRegistrySubjectNameStrategy, value); }
+        }
+        
         /// <summary>
         ///     Set a configuration property using a string key / value pair.
         /// </summary>

@@ -33,11 +33,19 @@ namespace AvroBlogExample
     /// </summary>
     class Program
     {
-        static void ProduceGeneric(string bootstrapServers, string schemaRegistryUrl)
+        private const string TopicName = "subject-name-test";
+        
+        static void ProduceGeneric(string bootstrapServers, string schemaRegistryUrl, string subjectNameStrategy)
         {
             var producerConfig = new ProducerConfig { BootstrapServers = bootstrapServers };
 
-            using (var serdeProvider = new AvroSerdeProvider(new AvroSerdeProviderConfig { SchemaRegistryUrl = schemaRegistryUrl }))
+            var serdeProviderConfig = new AvroSerdeProviderConfig
+            {
+                SchemaRegistryUrl = schemaRegistryUrl,
+                SchemaRegistrySubjectNameStrategy = subjectNameStrategy
+            };
+            
+            using (var serdeProvider = new AvroSerdeProvider(serdeProviderConfig))
             using (var producer = new Producer<Null, GenericRecord>(producerConfig, null, serdeProvider.GetSerializerGenerator<GenericRecord>()))
             {
                 var logLevelSchema = (EnumSchema)Schema.Parse(
@@ -53,7 +61,7 @@ namespace AvroBlogExample
                 record.Add("IP", "127.0.0.1");
                 record.Add("Message", "a test log message");
                 record.Add("Severity", new GenericEnum(logLevelSchema, "Error"));
-                producer.ProduceAsync("log-messages", new Message<Null, GenericRecord> { Value = record })
+                producer.ProduceAsync(TopicName, new Message<Null, GenericRecord> { Value = record })
                     .ContinueWith(task => Console.WriteLine(
                         task.IsFaulted
                             ? $"error producing message: {task.Exception.Message}"
@@ -63,14 +71,20 @@ namespace AvroBlogExample
             }
         }
 
-        static void ProduceSpecific(string bootstrapServers, string schemaRegistryUrl)
+        static void ProduceSpecific(string bootstrapServers, string schemaRegistryUrl, string subjectNameStrategy)
         {
             var producerConfig = new ProducerConfig { BootstrapServers = bootstrapServers };
 
-            using (var serdeProvider = new AvroSerdeProvider(new AvroSerdeProviderConfig { SchemaRegistryUrl = schemaRegistryUrl }))
+            var serdeProviderConfig = new AvroSerdeProviderConfig
+            {
+                SchemaRegistryUrl = schemaRegistryUrl,
+                SchemaRegistrySubjectNameStrategy = subjectNameStrategy
+            };
+            
+            using (var serdeProvider = new AvroSerdeProvider(serdeProviderConfig))
             using (var producer = new Producer<Null, MessageTypes.LogMessage>(producerConfig, null, serdeProvider.GetSerializerGenerator<MessageTypes.LogMessage>()))
             {
-                producer.ProduceAsync("log-messages", 
+                producer.ProduceAsync(TopicName, 
                     new Message<Null, MessageTypes.LogMessage> 
                     {
                         Value = new MessageTypes.LogMessage
@@ -85,7 +99,7 @@ namespace AvroBlogExample
             }
         }
 
-        static void ConsumeSpecific(string bootstrapServers, string schemaRegistryUrl)
+        static void ConsumeSpecific(string bootstrapServers, string schemaRegistryUrl, string subjectNameStrategy)
         {
             CancellationTokenSource cts = new CancellationTokenSource();
             Console.CancelKeyPress += (_, e) => {
@@ -100,10 +114,16 @@ namespace AvroBlogExample
                 AutoOffsetReset = AutoOffsetResetType.Earliest
             };
 
-            using (var serdeProvider = new AvroSerdeProvider(new AvroSerdeProviderConfig { SchemaRegistryUrl = schemaRegistryUrl }))
+            var serdeProviderConfig = new AvroSerdeProviderConfig
+            {
+                SchemaRegistryUrl = schemaRegistryUrl,
+                SchemaRegistrySubjectNameStrategy = subjectNameStrategy
+            };
+            
+            using (var serdeProvider = new AvroSerdeProvider(serdeProviderConfig))
             using (var consumer = new Consumer<Null, MessageTypes.LogMessage>(consumerConfig, null, serdeProvider.GetDeserializerGenerator<MessageTypes.LogMessage>()))
             {
-                consumer.Subscribe("log-messages");
+                consumer.Subscribe(TopicName);
 
                 while (!cts.IsCancellationRequested)
                 {
@@ -124,11 +144,11 @@ namespace AvroBlogExample
         }
 
         private static void PrintUsage()
-            => Console.WriteLine("Usage: .. <generic-produce|specific-produce|consume> <bootstrap-servers> <schema-registry-url>");
+            => Console.WriteLine("Usage: .. <generic-produce|specific-produce|consume> <bootstrap-servers> <schema-registry-url> <subject-name-strategy>");
 
         static void Main(string[] args)
         {
-            if (args.Length != 3)
+            if (args.Length < 3)
             {
                 PrintUsage();
                 return;
@@ -137,17 +157,18 @@ namespace AvroBlogExample
             var mode = args[0];
             var bootstrapServers = args[1];
             var schemaRegistryUrl = args[2];
+            var subjectNameStrategy = args.Length == 4 ? args[3] : "topic_name_strategy";
 
             switch (mode)
             {
                 case "generic-produce":
-                    ProduceGeneric(bootstrapServers, schemaRegistryUrl);
+                    ProduceGeneric(bootstrapServers, schemaRegistryUrl, subjectNameStrategy);
                     break;
                 case "specific-produce":
-                    ProduceSpecific(bootstrapServers, schemaRegistryUrl);
+                    ProduceSpecific(bootstrapServers, schemaRegistryUrl, subjectNameStrategy);
                     break;
                 case "consume":
-                    ConsumeSpecific(bootstrapServers, schemaRegistryUrl);
+                    ConsumeSpecific(bootstrapServers, schemaRegistryUrl, subjectNameStrategy);
                     break;
                 default:
                     PrintUsage();
