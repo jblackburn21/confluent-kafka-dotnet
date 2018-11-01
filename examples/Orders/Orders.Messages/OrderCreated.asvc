@@ -1,0 +1,10 @@
+{ 
+  "namespace": "Events",
+  "type": "record",
+  "doc": "A order created event",
+  "name": "OrderCreated",
+  "fields": [
+    { "name": "OrderId", "type": "string" },
+    { "name": "Message", "type": "string" }
+  ]
+}

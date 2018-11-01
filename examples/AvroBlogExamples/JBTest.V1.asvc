@@ -1,0 +1,9 @@
+{ 
+  "namespace": "MessageTypes",
+  "type": "record",
+  "doc": "A multi record type test",
+  "name": "JBTest",
+  "fields": [
+    { "name": "Name", "type": "string" }
+  ]
+}

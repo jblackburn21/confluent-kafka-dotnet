@@ -23,6 +23,8 @@ using Avro;
 using Avro.Generic;
 using Confluent.Kafka;
 using Confluent.Kafka.Serialization;
+using MessageTypes;
+using LogMessage = MessageTypes.LogMessage;
 
 
 namespace AvroBlogExample
@@ -87,14 +89,21 @@ namespace AvroBlogExample
                 producer.ProduceAsync(TopicName, 
                     new Message<Null, MessageTypes.LogMessage> 
                     {
-                        Value = new MessageTypes.LogMessage
+                        Value = new MessageTypes.LogMessage()
                         {
-                            IP = "192.168.0.1",
-                            Message = "a test message 2",
-                            Severity = MessageTypes.LogLevel.Info,
-                            Tags = new Dictionary<string, string> { { "location", "CA" } }
+                            IP = "5555",
+                            Message = "Hello world",
+                            Severity = LogLevel.Info,
+                            Tags = new Dictionary<string, string>(
+                                    new []
+                                    {
+                                        new KeyValuePair<string, string>("tag1", "val1"), 
+                                    }
+                                )
+//                            Name = "Hello world"
                         }
                     });
+                
                 producer.Flush(TimeSpan.FromSeconds(30));
             }
         }
@@ -121,7 +130,7 @@ namespace AvroBlogExample
             };
             
             using (var serdeProvider = new AvroSerdeProvider(serdeProviderConfig))
-            using (var consumer = new Consumer<Null, MessageTypes.LogMessage>(consumerConfig, null, serdeProvider.GetDeserializerGenerator<MessageTypes.LogMessage>()))
+            using (var consumer = new Consumer<Null, GenericRecord>(consumerConfig, null, serdeProvider.GetDeserializerGenerator<GenericRecord>()))
             {
                 consumer.Subscribe(TopicName);
 
@@ -130,7 +139,26 @@ namespace AvroBlogExample
                     try
                     {
                         var consumeResult = consumer.Consume(cts.Token);
-                        Console.WriteLine($"{consumeResult.Message.Timestamp.UtcDateTime.ToString("yyyy-MM-dd HH:mm:ss")}: [{consumeResult.Value.Severity}] {consumeResult.Value.Message}");
+
+                        var value = consumeResult.Value;
+
+                        var type = Type.GetType(value.Schema.Fullname);
+                        
+//                        var jbTest = (JBTest)Activator.CreateInstance(type);
+//                        
+//                        foreach (var field in value.Schema.Fields)
+//                        {
+//                            jbTest.Put(field.Pos, value[field.Name]);    
+//                        }                        
+//                        
+//                        Console.WriteLine($"Message: {jbTest.Name}");
+                        
+                        Console.WriteLine($"{consumeResult.Topic} Offset: {consumeResult.Offset.Value} Type: {type.FullName}");
+
+
+                        consumer.Commit(consumeResult, cts.Token);
+
+//                        Console.WriteLine($"{consumeResult.Message.Timestamp.UtcDateTime.ToString("yyyy-MM-dd HH:mm:ss")}: [{consumeResult.Value.Severity}] {consumeResult.Value.Message}");
                     }
                     catch (ConsumeException e)
                     {

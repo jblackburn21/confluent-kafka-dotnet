@@ -1,0 +1,10 @@
+{ 
+  "namespace": "MessageTypes",
+  "type": "record",
+  "doc": "A multi record type test",
+  "name": "ProviderLocationUpdated",
+  "fields": [
+    { "name": "Name", "type": "string" }
+    { "name": "Coordinates", "type": "string" }
+  ]
+}

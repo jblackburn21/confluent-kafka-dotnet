@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\repos\github\akka\Alpakka\Kafka\src\Akka.Streams.Kafka" t="IncludeRecursive">
+      <e p="Akka.Streams.Kafka.csproj" t="IncludeRecursive" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Dsl" t="Include">
+        <e p="KafkaConsumer.cs" t="Include" />
+        <e p="KafkaProducer.cs" t="Include" />
+      </e>
+      <e p="Messages" t="Include">
+        <e p="CommittableMessage.cs" t="Include" />
+        <e p="TopicAndMessage.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard1.6" t="Include">
+            <e p="Akka.Streams.Kafka.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="reference.conf" t="Include" />
+      <e p="Settings" t="Include">
+        <e p="ConsumerSettings.cs" t="Include" />
+        <e p="KafkaExtensions.cs" t="Include" />
+        <e p="ProducerSettings.cs" t="Include" />
+        <e p="Subscriptions.cs" t="Include" />
+      </e>
+      <e p="Stages" t="Include">
+        <e p="CommittableConsumerStage.cs" t="Include" />
+        <e p="ConsumerStage.cs" t="Include" />
+        <e p="ProducerStage.cs" t="Include" />
+      </e>
+    </e>
+    <e p="C:\repos\github\jblackburn21\confluent-kafka-dotnet" t="IncludeFlat">
+      <e p="Confluent.Kafka.sln" t="IncludeFlat" />
+      <e p="examples" t="Include">
+        <e p="AdminClient" t="IncludeRecursive">
+          <e p="AdminClient.csproj" t="IncludeRecursive" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="AdminClient.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="AvroBlogExamples" t="IncludeRecursive">
+          <e p="AvroBlogExamples.csproj" t="IncludeRecursive" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="IIntegrationEvent.cs" t="Include" />
+          <e p="JBTest.V1.asvc" t="Include" />
+          <e p="LogLevel.asvc" t="Include" />
+          <e p="LogMessage.V1.asvc" t="Include" />
+          <e p="LogMessage.V2.asvc" t="Include" />
+          <e p="MessageTypes" t="Include">
+            <e p="BaseEvent.cs" t="Include" />
+            <e p="JBTest.cs" t="Include" />
+            <e p="LogLevel.cs" t="Include" />
+            <e p="LogMessage.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="AvroBlogExamples.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="ProviderLocationUpdated.V1.asvc" t="Include" />
+          <e p="README.md" t="Include" />
+        </e>
+        <e p="AvroGeneric" t="IncludeRecursive">
+          <e p="AvroGeneric.csproj" t="IncludeRecursive" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="AvroGeneric.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+        </e>
+        <e p="AvroSpecific" t="IncludeRecursive">
+          <e p="AvroSpecific.csproj" t="IncludeRecursive" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="AvroSpecific.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="User.asvc" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="ConfluentCloud" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="ConfluentCloud.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="ConfluentCloud.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Consumer" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Consumer.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Consumer.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="MultiProducer" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="MultiProducer.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="MultiProducer.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Orders" t="Include" />
+        <e p="Producer" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Producer.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Producer.csproj" t="IncludeRecursive" />
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="ProviderLocationPublisher" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="hocon.conf" t="Include" />
+          <e p="IEventBus.cs" t="Include" />
+          <e p="IntegrationEvent.cs" t="Include" />
+          <e p="log.clef" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="ProviderLocationPublisher.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Provider.cs" t="Include" />
+          <e p="ProviderCoordinator.cs" t="Include" />
+          <e p="ProviderLocationPublisher.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="ConfigGen" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="ConfigGen.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="ConfigGen.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka" t="IncludeRecursive">
+          <e p="Admin" t="Include">
+            <e p="AlterConfigsException.cs" t="Include" />
+            <e p="AlterConfigsExceptionResult.cs" t="Include" />
+            <e p="AlterConfigsOptions.cs" t="Include" />
+            <e p="ConfigEntry.cs" t="Include" />
+            <e p="ConfigEntryResult.cs" t="Include" />
+            <e p="ConfigResource.cs" t="Include" />
+            <e p="ConfigSource.cs" t="Include" />
+            <e p="ConfigSynonym.cs" t="Include" />
+            <e p="CreatePartitionsException.cs" t="Include" />
+            <e p="CreatePartitionsExceptionResult.cs" t="Include" />
+            <e p="CreatePartitionsOptions.cs" t="Include" />
+            <e p="CreateTopicExceptionResult.cs" t="Include" />
+            <e p="CreateTopicsException.cs" t="Include" />
+            <e p="CreateTopicsOptions.cs" t="Include" />
+            <e p="DeleteTopicExceptionResult.cs" t="Include" />
+            <e p="DeleteTopicsException.cs" t="Include" />
+            <e p="DeleteTopicsOptions.cs" t="Include" />
+            <e p="DescribeConfigsException.cs" t="Include" />
+            <e p="DescribeConfigsExceptionResult.cs" t="Include" />
+            <e p="DescribeConfigsOptions.cs" t="Include" />
+            <e p="DescribeConfigsResult.cs" t="Include" />
+            <e p="PartitionsSpecification.cs" t="Include" />
+            <e p="ResourceType.cs" t="Include" />
+            <e p="TopicSpecification.cs" t="Include" />
+          </e>
+          <e p="AdminClient.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="BrokerMetadata.cs" t="Include" />
+          <e p="CommittedOffsets.cs" t="Include" />
+          <e p="Config.cs" t="Include" />
+          <e p="ConfigPropertyNames.cs" t="Include" />
+          <e p="Confluent.Kafka.csproj" t="IncludeRecursive" />
+          <e p="Confluent.Kafka.snk" t="Include" />
+          <e p="ConsumeException.cs" t="Include" />
+          <e p="Consumer.cs" t="Include" />
+          <e p="ConsumeResult.cs" t="Include" />
+          <e p="DeliveryReport.cs" t="Include" />
+          <e p="DeliveryReportResult.cs" t="Include" />
+          <e p="Deserializers.cs" t="Include" />
+          <e p="Error.cs" t="Include" />
+          <e p="ErrorCode.cs" t="Include" />
+          <e p="ErrorEvent.cs" t="Include" />
+          <e p="Exceptions" t="Include">
+            <e p="TopicPartitionException.cs" t="Include" />
+            <e p="TopicPartitionOffsetException.cs" t="Include" />
+          </e>
+          <e p="GroupInfo.cs" t="Include" />
+          <e p="GroupMemberInfo.cs" t="Include" />
+          <e p="Handle.cs" t="Include" />
+          <e p="Header.cs" t="Include" />
+          <e p="Headers.cs" t="Include" />
+          <e p="IAdminClient.cs" t="Include" />
+          <e p="IClient.cs" t="Include" />
+          <e p="IConsumer.cs" t="Include" />
+          <e p="IDeliveryHandler.cs" t="Include" />
+          <e p="Ignore.cs" t="Include" />
+          <e p="Impl" t="Include">
+            <e p="LibRdKafka.cs" t="Include" />
+            <e p="Metadata.cs" t="Include" />
+            <e p="NativeMethods" t="Include">
+              <e p="NativeMethods.cs" t="Include" />
+              <e p="NativeMethods_Centos7.cs" t="Include" />
+              <e p="NativeMethods_Debian9.cs" t="Include" />
+            </e>
+            <e p="SafeConfigHandle.cs" t="Include" />
+            <e p="SafeHandleZeroIsInvalid.cs" t="Include" />
+            <e p="SafeKafkaHandle.cs" t="Include" />
+            <e p="SafeTopicConfigHandle.cs" t="Include" />
+            <e p="SafeTopicHandle.cs" t="Include" />
+          </e>
+          <e p="Internal" t="Include">
+            <e p="Extensions" t="Include">
+              <e p="String.cs" t="Include" />
+              <e p="TimeSpan.cs" t="Include" />
+            </e>
+            <e p="Util.cs" t="Include" />
+          </e>
+          <e p="IProducer.cs" t="Include" />
+          <e p="KafkaException.cs" t="Include" />
+          <e p="Library.cs" t="Include" />
+          <e p="librdkafka" t="Include">
+            <e p="x64" t="Include" />
+            <e p="x86" t="Include" />
+          </e>
+          <e p="Loggers.cs" t="Include" />
+          <e p="LogMessage.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+          <e p="Message_KV.cs" t="Include" />
+          <e p="Metadata.cs" t="Include" />
+          <e p="Null.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net45" t="Include">
+                <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
+              </e>
+              <e p="net46" t="Include">
+                <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
+              </e>
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
+              </e>
+              <e p="netstandard1.3" t="Include">
+                <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Offset.cs" t="Include" />
+          <e p="Partition.cs" t="Include" />
+          <e p="PartitionMetadata.cs" t="Include" />
+          <e p="ProduceException.cs" t="Include" />
+          <e p="Producer.cs" t="Include" />
+          <e p="Serializers.cs" t="Include" />
+          <e p="SysLogLevel.cs" t="Include" />
+          <e p="Timestamp.cs" t="Include" />
+          <e p="TimestampType.cs" t="Include" />
+          <e p="TopicMetadata.cs" t="Include" />
+          <e p="TopicPartition.cs" t="Include" />
+          <e p="TopicPartitionError.cs" t="Include" />
+          <e p="TopicPartitionOffset.cs" t="Include" />
+          <e p="TopicPartitionOffsetError.cs" t="Include" />
+          <e p="TopicPartitionTimestamp.cs" t="Include" />
+          <e p="WatermarkOffsets.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka.Avro" t="IncludeRecursive">
+          <e p="AvroDeserializer.cs" t="Include" />
+          <e p="AvroSerdeProvider.cs" t="Include" />
+          <e p="AvroSerdeProviderConfig.cs" t="Include" />
+          <e p="AvroSerializer.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Confluent.Kafka.Avro.csproj" t="IncludeRecursive" />
+          <e p="Constants.cs" t="Include" />
+          <e p="GenericDeserializerImpl.cs" t="Include" />
+          <e p="GenericSerializerImpl.cs" t="Include" />
+          <e p="IAvroDeserializerImpl.cs" t="Include" />
+          <e p="IAvroSerializerImpl.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net452" t="Include">
+                <e p="Confluent.Kafka.Avro.AssemblyInfo.cs" t="Include" />
+              </e>
+              <e p="netstandard2.0" t="Include">
+                <e p="Confluent.Kafka.Avro.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SpecificDeserializerImpl.cs" t="Include" />
+          <e p="SpecificSerializerImpl.cs" t="Include" />
+          <e p="Utils.cs" t="Include" />
+        </e>
+        <e p="Confluent.SchemaRegistry" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CachedSchemaRegistryClient.cs" t="Include" />
+          <e p="Confluent.SchemaRegistry.csproj" t="IncludeRecursive" />
+          <e p="include_docs.xml" t="Include" />
+          <e p="ISchemaRegistryClient.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net452" t="Include">
+                <e p="Confluent.SchemaRegistry.AssemblyInfo.cs" t="Include" />
+              </e>
+              <e p="netstandard1.4" t="Include">
+                <e p="Confluent.SchemaRegistry.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Rest" t="Include">
+            <e p="DataContracts" t="Include">
+              <e p="Compatibility.cs" t="Include" />
+              <e p="CompatibilityCheck.cs" t="Include" />
+              <e p="Config.cs" t="Include" />
+              <e p="ErrorMessage.cs" t="Include" />
+              <e p="Schema.cs" t="Include" />
+              <e p="SchemaId.cs" t="Include" />
+              <e p="SchemaString.cs" t="Include" />
+            </e>
+            <e p="IRestService.cs" t="Include" />
+            <e p="RestService.cs" t="Include" />
+            <e p="Versions.cs" t="Include" />
+          </e>
+          <e p="SchemaRegistryConfig.cs" t="Include" />
+          <e p="SchemaRegistryException.cs" t="Include" />
+          <e p="SubjectNameStrategies.cs" t="Include" />
+        </e>
+      </e>
+      <e p="test" t="Include">
+        <e p="Confluent.Kafka.Avro.IntegrationTests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Confluent.Kafka.Avro.IntegrationTests.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.Avro.IntegrationTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.Kafka.Avro.IntegrationTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="test.parameters.json" t="Include" />
+          <e p="Tests" t="Include">
+            <e p="AutoRegisterSchemaDisabled.cs" t="Include" />
+            <e p="ConsumeIncompatibleTypes.cs" t="Include" />
+            <e p="PrimitiveTypes.cs" t="Include" />
+            <e p="ProduceConsume.cs" t="Include" />
+            <e p="ProduceConsumeGeneric.cs" t="Include" />
+            <e p="ProduceGenericMultipleTopics.cs" t="Include" />
+            <e p="ProduceIncompatibleTypes.cs" t="Include" />
+            <e p="Tests.cs" t="Include" />
+          </e>
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka.Avro.UnitTests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration.cs" t="Include" />
+          <e p="Confluent.Kafka.Avro.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net452" t="Include">
+                <e p="Confluent.Kafka.Avro.UnitTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.Kafka.Avro.UnitTests.Program.cs" t="Include" />
+              </e>
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.Avro.UnitTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.Kafka.Avro.UnitTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SerializeDeserialize.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka.Benchmark" t="IncludeRecursive">
+          <e p="BenchmarkConsumer.cs" t="Include" />
+          <e p="BenchmarkProducer.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Confluent.Kafka.Benchmark.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.Benchmark.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka.IntegrationTests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="bootstrap-topics.sh" t="Include" />
+          <e p="Confluent.Kafka.IntegrationTests.csproj" t="IncludeRecursive" />
+          <e p="kafka.parameters.json" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.IntegrationTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.Kafka.IntegrationTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Tests" t="Include">
+            <e p="__TODO.txt" t="Include" />
+            <e p="AddBroker.cs" t="Include" />
+            <e p="AdminClient_AlterConfigs.cs" t="Include" />
+            <e p="AdminClient_CreatePartitions.cs" t="Include" />
+            <e p="AdminClient_CreateTopics.cs" t="Include" />
+            <e p="AdminClient_DeleteTopics.cs" t="Include" />
+            <e p="AdminClient_DescribeConfigs.cs" t="Include" />
+            <e p="AssignOverloads.cs" t="Include" />
+            <e p="AssignPastEnd.cs" t="Include" />
+            <e p="ClosedHandle.cs" t="Include" />
+            <e p="Consumer_Assignment.cs" t="Include" />
+            <e p="Consumer_AutoCommit.cs" t="Include" />
+            <e p="Consumer_Commit_CommitAsync_Committed_Position.cs" t="Include" />
+            <e p="Consumer_Consume.cs" t="Include" />
+            <e p="Consumer_DisableHeaders.cs" t="Include" />
+            <e p="Consumer_DisableTimestamps.cs" t="Include" />
+            <e p="Consumer_Exiting.cs" t="Include" />
+            <e p="Consumer_OffsetsForTimes.cs" t="Include" />
+            <e p="Consumer_Pause_Resume.cs" t="Include" />
+            <e p="Consumer_Poll.cs" t="Include" />
+            <e p="Consumer_Poll_Error.cs" t="Include" />
+            <e p="Consumer_Seek.cs" t="Include" />
+            <e p="Consumer_StoreOffsets.cs" t="Include" />
+            <e p="Consumer_Subscription.cs" t="Include" />
+            <e p="DuplicateConsumerAssign.cs" t="Include" />
+            <e p="GarbageCollect.cs" t="Include" />
+            <e p="Headers.cs" t="Include" />
+            <e p="Ignore.cs" t="Include" />
+            <e p="LogDelegate.cs" t="Include" />
+            <e p="Metadata.cs" t="Include" />
+            <e p="NullVsEmpty.cs" t="Include" />
+            <e p="OnPartitionsAssignedNotSet.cs" t="Include" />
+            <e p="Produce_ReuseObjectInstance.cs" t="Include" />
+            <e p="Producer_DisableDeliveryReports.cs" t="Include" />
+            <e p="Producer_OptimizeDeliveryReports.cs" t="Include" />
+            <e p="Producer_Produce_DeliveryHandler.cs" t="Include" />
+            <e p="Producer_Produce_Null_DeliveryHandler.cs" t="Include" />
+            <e p="Producer_ProduceAsync_Await.cs" t="Include" />
+            <e p="Producer_ProduceAsync_Null_Task.cs" t="Include" />
+            <e p="Producer_ProduceAsync_Task.cs" t="Include" />
+            <e p="SimpleProduceConsume.cs" t="Include" />
+            <e p="Tests.cs" t="Include" />
+            <e p="Timestamps.cs" t="Include" />
+            <e p="WatermarkOffsets.cs" t="Include" />
+          </e>
+          <e p="Util.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka.UnitTests" t="IncludeRecursive">
+          <e p="Admin" t="Include">
+            <e p="ConfigResource.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="BrokerMetadata.cs" t="Include" />
+          <e p="CommittedOffsets.cs" t="Include" />
+          <e p="Confluent.Kafka.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="Consumer.cs" t="Include" />
+          <e p="Error.cs" t="Include" />
+          <e p="GroupInfo.cs" t="Include" />
+          <e p="GroupMemberInfo.cs" t="Include" />
+          <e p="Headers.cs" t="Include" />
+          <e p="InvalidHandle.cs" t="Include" />
+          <e p="Library.cs" t="Include" />
+          <e p="LogMessage.cs" t="Include" />
+          <e p="Metadata.cs" t="Include" />
+          <e p="MoqExample.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net452" t="Include">
+                <e p="Confluent.Kafka.UnitTests.AssemblyInfo.cs" t="Include" />
+              </e>
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.UnitTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.Kafka.UnitTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Offset.cs" t="Include" />
+          <e p="Partition.cs" t="Include" />
+          <e p="PartitionMetadata.cs" t="Include" />
+          <e p="Producer.cs" t="Include" />
+          <e p="Serialization" t="Include">
+            <e p="ByteArray.cs" t="Include" />
+            <e p="Double.cs" t="Include" />
+            <e p="Float.cs" t="Include" />
+            <e p="Int.cs" t="Include" />
+            <e p="Long.cs" t="Include" />
+            <e p="String.cs" t="Include" />
+          </e>
+          <e p="Timestamp.cs" t="Include" />
+          <e p="TopicMetadata.cs" t="Include" />
+          <e p="TopicPartition.cs" t="Include" />
+          <e p="TopicPartitionError.cs" t="Include" />
+          <e p="TopicPartitionOffset.cs" t="Include" />
+          <e p="TopicPartitionOffsetError.cs" t="Include" />
+          <e p="TopicPartitionTimestamp.cs" t="Include" />
+          <e p="WatermarkOffsets.cs" t="Include" />
+        </e>
+        <e p="Confluent.Kafka.VerifiableClient" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Confluent.Kafka.VerifiableClient.csproj" t="IncludeRecursive" />
+          <e p="globals.json" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.Kafka.VerifiableClient.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Confluent.SchemaRegistry.IntegrationTests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="conf" t="Include">
+            <e p="schema-registry" t="Include">
+              <e p="login.properties" t="Include" />
+              <e p="schema-registry.jaas" t="Include" />
+            </e>
+          </e>
+          <e p="Confluent.SchemaRegistry.IntegrationTests.csproj" t="IncludeRecursive" />
+          <e p="docker-compose.yaml" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.SchemaRegistry.IntegrationTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.SchemaRegistry.IntegrationTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="schema.registry.parameters.json" t="Include" />
+          <e p="Tests" t="Include">
+            <e p="BasicAuth.cs" t="Include" />
+            <e p="Config.cs" t="Include" />
+            <e p="FillTheCache.cs" t="Include" />
+            <e p="GetAllSubjects.cs" t="Include" />
+            <e p="GetId.cs" t="Include" />
+            <e p="GetLatestSchema.cs" t="Include" />
+            <e p="GetSchemaById.cs" t="Include" />
+            <e p="GetSchemaBySubjectAndVersion.cs" t="Include" />
+            <e p="IsCompatible.cs" t="Include" />
+            <e p="RegisterIncompatibleSchema.cs" t="Include" />
+            <e p="RegisterSameSchemaTwice.cs" t="Include" />
+            <e p="Tests.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Confluent.SchemaRegistry.UnitTests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CachedSchemaRegistryClient.cs" t="Include" />
+          <e p="Confluent.SchemaRegistry.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Confluent.SchemaRegistry.UnitTests.AssemblyInfo.cs" t="Include" />
+                <e p="Confluent.SchemaRegistry.UnitTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Schema.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\librdkafka.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\librdkafkacpp.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\msvcr120.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\zlib.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\librdkafka.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\librdkafkacpp.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\msvcr120.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\zlib.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.abstractions.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.runner.reporters.net452.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.runner.utility.net35.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.runner.visualstudio.testadapter.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.abstractions.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.reporters.net452.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.utility.net452.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.visualstudio.testadapter.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\jblackburn\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jblackburn\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Confluent.Kafka.-1675183496.00" t="ExcludeRecursive" />
+  </component>
+</project>

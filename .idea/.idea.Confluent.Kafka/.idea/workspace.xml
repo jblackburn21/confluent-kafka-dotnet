@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34de3327-15c3-4733-a73a-1a0c919a0933" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/AvroBlogExamples/IIntegrationEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/AvroBlogExamples/JBTest.V1.asvc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/BaseEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/AvroBlogExamples/ProviderLocationUpdated.V1.asvc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ProviderLocationPublisher/IEventBus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ProviderLocationPublisher/IntegrationEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ProviderLocationPublisher/Provider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderCoordinator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ProviderLocationPublisher/hocon.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confluent.Kafka.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Confluent.Kafka.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/AvroGeneric/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/examples/AvroGeneric/Program.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2131401927">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="asvc" value="2" />
+          <entry key="conf" value="2" />
+          <entry key="cs" value="92" />
+          <entry key="csproj" value="3" />
+          <entry key="json" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="92" />
+          <entry key="Csproj" value="3" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="asvc" value="68" />
+          <entry key="conf" value="9" />
+          <entry key="cs" value="8421" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="8421" />
+          <entry key="PLAIN_TEXT" value="77" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Confluent.Kafka" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+              <folding>
+                <marker date="1541080312645" expanded="false" signature="6:487" ph="..." />
+                <marker date="1541080312645" expanded="true" signature="524:3160" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="544:2460" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="652:2454" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="1157:1507" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="1246:1324" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="2504:3157" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="2692:2774" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="2844:3151" ph="{...}" />
+                <marker date="1541080312645" expanded="true" signature="3001:3079" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/IEventBus.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1541080323178" expanded="true" signature="66:230" ph="{...}" />
+                <marker date="1541080323178" expanded="true" signature="99:174" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/IntegrationEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1541080270486" expanded="true" signature="35:305" ph="{...}" />
+                <marker date="1541080270486" expanded="true" signature="79:303" ph="{...}" />
+                <marker date="1541080270486" expanded="true" signature="144:215" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Dsl/KafkaProducer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="67" />
+              <folding>
+                <marker date="1540494350430" expanded="false" signature="6:179" ph="..." />
+                <marker date="1540494350430" expanded="true" signature="213:3243" ph="{...}" />
+                <marker date="1540494350430" expanded="true" signature="220:323" ph="/// Akka Stream connector for publishing messages to Kafka topics. ... " />
+                <marker date="1540494350430" expanded="true" signature="361:3241" ph="{...}" />
+                <marker date="1540494350430" expanded="true" signature="376:492" ph="/// The `PlainSink` can be used for publishing records to Kafka topics. ... " />
+                <marker date="1540494350430" expanded="true" signature="618:854" ph="{...}" />
+                <marker date="1540494350430" expanded="true" signature="864:980" ph="/// The `PlainSink` can be used for publishing records to Kafka topics. ... " />
+                <marker date="1540494350430" expanded="true" signature="1140:1386" ph="{...}" />
+                <marker date="1540494350430" expanded="true" signature="1396:1654" ph="/// Publish records to Kafka topics and then continue the flow. Possibility to pass through a message, which ... " />
+                <marker date="1540494350430" expanded="true" signature="1819:2301" ph="{...}" />
+                <marker date="1540494350430" expanded="true" signature="2311:2569" ph="/// Publish records to Kafka topics and then continue the flow. Possibility to pass through a message, which ... " />
+                <marker date="1540494350430" expanded="true" signature="2768:3235" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/Provider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+              <folding>
+                <marker date="1541019288152" expanded="true" signature="6:49" ph="..." />
+                <marker date="1541019288152" expanded="true" signature="86:3178" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="121:205" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="251:2468" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="569:1620" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="866:1376" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="1430:1608" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="1846:2462" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="2498:2752" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="2566:2654" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="2794:3176" ph="{...}" />
+                <marker date="1541019288152" expanded="true" signature="2898:3023" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderCoordinator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <folding>
+                <marker date="1541019522804" expanded="true" signature="6:140" ph="..." />
+                <marker date="1541019522804" expanded="true" signature="177:1892" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="220:320" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="361:459" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="501:601" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="658:1890" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="815:1695" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="877:1341" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="1004:1222" ph="{...}" />
+                <marker date="1541019522804" expanded="true" signature="1406:1683" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>schema.registry.url</find>
+      <find>poll</find>
+      <find>error</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="avro-subject-name-strategy" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/examples/Consumer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroGeneric/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D9FB39F-0543-4D59-8CDB-0F6313D04C28/66/09264b11/Producer`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/AvroSerdeProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/AvroSerdeProviderConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/GenericDeserializerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/SpecificSerializerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41FF9904-11FC-44E2-ABB3-76207A9A54A4/ec/9a23f8d5/ContinuationTaskFromTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Confluent.SchemaRegistry.UnitTests/CachedSchemaRegistryClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/SpecificDeserializerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/JBTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ConfigGen/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/6d/a3db7908/Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroSpecific/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41FF9904-11FC-44E2-ABB3-76207A9A54A4/57/7adbf134/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4C0869F2-4B76-43F2-8FDD-319D7E10A106/27/e5afe49c/FixedSchema.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/LogMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D9FB39F-0543-4D59-8CDB-0F6313D04C28/63/84eb349f/Serializers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/44/b27aa297/Status.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/AvroDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4C0869F2-4B76-43F2-8FDD-319D7E10A106/7d/4048bdec/GenericFixed.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4C0869F2-4B76-43F2-8FDD-319D7E10A106/d8/410f5e61/SpecificFixed.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/Producer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Confluent.Kafka.Avro.IntegrationTests/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/LogMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/BaseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Message_KV.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/MultiProducer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/KafkaException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/SchemaRegistryException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/ISchemaRegistryClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/CachedSchemaRegistryClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/TopicMetadata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Producer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/SubjectNameStrategies.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Offset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/SchemaRegistryConfig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/AvroBlogExamples/IIntegrationEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/DeliveryReportResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/IProducer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderCoordinator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/DeliveryReport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/90/d5c4603c/ReceiveActor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Message.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Serializers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/ConsumeResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Metadata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Confluent.Kafka/Consumer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Confluent.Kafka.Avro.UnitTests/SerializeDeserialize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Confluent.Kafka.Avro.UnitTests/Configuration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/a3/e6b6e345/BroadcastPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/b5/8fc4ae21/Pool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/IntegrationEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/Provider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/IEventBus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Confluent.SchemaRegistry.IntegrationTests/Tests/GetSchemaBySubjectAndVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Dsl/KafkaProducer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Stages/ProducerStage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Settings/ProducerSettings.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Confluent.SchemaRegistry/CachedSchemaRegistryClient.cs" />
+        <option value="$PROJECT_DIR$/test/Confluent.SchemaRegistry.UnitTests/CachedSchemaRegistryClient.cs" />
+        <option value="$PROJECT_DIR$/src/Confluent.SchemaRegistry/SchemaRegistryConfig.cs" />
+        <option value="$PROJECT_DIR$/src/Confluent.SchemaRegistry/SubjectNameStrategies.cs" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/IIntegrationEvent.cs" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/BaseEvent.cs" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/LogMessage.cs" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/JBTest.V1.asvc" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/JBTest.cs" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs" />
+        <option value="$PROJECT_DIR$/examples/AvroBlogExamples/ProviderLocationUpdated.V1.asvc" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/hocon.conf" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderLocationUpdatedHandler.cs" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderPool.cs" />
+        <option value="$PROJECT_DIR$/examples/Producer/Program.cs" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/Provider.cs" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderCoordinator.cs" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/IntegrationEvent.cs" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/Program.cs" />
+        <option value="$PROJECT_DIR$/examples/ProviderLocationPublisher/IEventBus.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="723" />
+    <option name="height" value="433" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Confluent.Kafka" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Confluent.Kafka" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="examples" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Confluent.Kafka" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="examples" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Akka.Streams.Kafka" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Confluent.Kafka" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="examples" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ProviderLocationPublisher" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Confluent.Kafka" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="COnsumerC&#9;null&#9;null&#10;Serial&#9;null&#9;null&#10;messa&#9;FILE&#9;file://C:/repos/github/jblackburn21/confluent-kafka-dotnet/src/Confluent.Kafka/Message_KV.cs&#10;dese&#9;null&#9;null&#10;serializer&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Akka.Streams.Kafka.csproj" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.examples\ProviderLocationPublisher">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/src/ConfigGen/bin/Debug/netcoreapp2.1/ConfigGen.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ConfigGen" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/ConfigGen/ConfigGen.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="examples\AvroBlogExamples" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/examples/AvroBlogExamples/bin/Debug/netcoreapp2.1/AvroBlogExamples.dll" />
+      <option name="PROGRAM_PARAMETERS" value="consume devdocker02:31092 localhost:8081 topic_record_name_strategy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/AvroBlogExamples" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/examples/AvroBlogExamples/AvroBlogExamples.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="examples\ProviderLocationPublisher" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/examples/ProviderLocationPublisher/bin/Debug/netcoreapp2.1/ProviderLocationPublisher.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/ProviderLocationPublisher" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderLocationPublisher.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.examples\AvroBlogExamples" />
+      <item itemvalue=".NET Project.examples\ProviderLocationPublisher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.examples\ProviderLocationPublisher" />
+        <item itemvalue=".NET Project.examples\AvroBlogExamples" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34de3327-15c3-4733-a73a-1a0c919a0933" name="Default Changelist" comment="" />
+      <created>1538415884628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538415884628</updated>
+      <workItem from="1538415894287" duration="680000" />
+      <workItem from="1538512838821" duration="3275000" />
+      <workItem from="1538586345877" duration="5369000" />
+      <workItem from="1539892790582" duration="77002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="86326000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.18336888" />
+      <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.18336888" />
+      <window_info id="Favorites" order="2" sideWeight="0.5015723" side_tool="true" weight="0.18336888" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.23861171" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4902386" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25813448" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.42407808" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28741866" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.164859" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs</url>
+          <line>146</line>
+          <properties documentPath="$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs" initialLine="137">
+            <startOffsets>
+              <option value="6101" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6153" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41FF9904-11FC-44E2-ABB3-76207A9A54A4/57/7adbf134/RuntimeType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="784" column="6" selection-start-line="784" selection-start-column="6" selection-end-line="784" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/SpecificDeserializerImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
+          <folding>
+            <marker date="1538413341347" expanded="true" signature="0:631" ph="/* Copyright 2018 Confluent Inc. ... */" />
+            <marker date="1538413341347" expanded="false" signature="639:828" ph="..." />
+            <marker date="1538413341347" expanded="true" signature="870:5230" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="946:5228" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="961:1170" ph="/// &lt;remarks&gt; ... " />
+            <marker date="1538413341347" expanded="true" signature="1372:1493" ph="///     The avro schema used to read values of type &lt;typeparamref name=&quot;T&quot;/&gt; ... " />
+            <marker date="1538413341347" expanded="true" signature="1701:3494" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="1843:2004" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2056:2141" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2194:2283" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2338:2426" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2481:2569" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2623:2710" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2763:2849" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="2904:2991" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="3044:3130" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="3147:3484" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="3552:5221" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="3575:3708" ph="/* Note: topic is not necessary for deserialization (or knowing if it's a key ... */" />
+            <marker date="1538413341347" expanded="true" signature="3824:5211" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="3943:4124" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="4437:5099" ph="{...}" />
+            <marker date="1538413341347" expanded="true" signature="4556:4667" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/AvroBlogExamples/JBTest.V1.asvc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConfigGen/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
+          <folding>
+            <marker date="1538413341168" expanded="false" signature="6:174" ph="..." />
+            <marker date="1538413341168" expanded="true" signature="196:29285" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="238:5738" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="253:838" ph="///     librdkafka _RK_C_S2I properties are automatically interpreted as enums, however  ... " />
+            <marker date="1538413341168" expanded="true" signature="960:1190" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="1201:1369" ph="///     A function that filters out properties from the librdkafka list that should ... " />
+            <marker date="1538413341168" expanded="true" signature="1516:2606" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="2627:2799" ph="///     A dictionary of synonym config properties. The key is included in the config ... " />
+            <marker date="1538413341168" expanded="true" signature="2924:3389" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="3400:3481" ph="///     SaslMechanismType definition ... " />
+            <marker date="1538413341168" expanded="true" signature="4036:4115" ph="///     get/set for SaslMechanism. ... " />
+            <marker date="1538413341168" expanded="true" signature="5776:6165" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="6184:29283" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="6235:6759" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="6801:7656" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="7698:7744" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="8389:9876" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="8470:9837" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="9120:9696" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="9919:9970" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="10040:11680" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="10129:11641" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="10263:10373" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="10394:10771" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="10549:10753" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="11198:11586" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="11760:12158" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="12196:12249" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="12295:17674" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="17722:19349" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="19397:22023" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="22074:23012" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="23085:25032" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="23294:24995" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="23377:23486" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="24281:24437" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="24458:24947" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="25137:25711" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="25462:25592" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="25802:26441" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="26045:26366" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="26541:26936" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="26589:26915" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="26693:26875" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="26988:29277" ph="{...}" />
+            <marker date="1538413341168" expanded="true" signature="27032:27150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/AvroSerdeProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          <folding>
+            <marker date="1538413341210" expanded="false" signature="6:136" ph="..." />
+            <marker date="1538413341210" expanded="true" signature="178:2969" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="185:388" ph="///     Manages the lifetime of a connection to schema registry, ... " />
+            <marker date="1538413341210" expanded="true" signature="437:2967" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="571:779" ph="///     Initializes a new instance of the AvroSerdeProvider class. ... " />
+            <marker date="1538413341210" expanded="true" signature="862:991" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="1001:1689" ph="///     Create a new avro deserializer generator. Use this with  ... " />
+            <marker date="1538413341210" expanded="true" signature="1759:2104" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="1801:2093" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="2114:2419" ph="///     Create a new avro serializer generator. Use this with ... " />
+            <marker date="1538413341210" expanded="true" signature="2485:2781" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="2526:2770" ph="{...}" />
+            <marker date="1538413341210" expanded="true" signature="2799:2896" ph="///     Releases all resources owned by this object. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/GenericDeserializerImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="70" column="79" selection-start-line="70" selection-start-column="79" selection-end-line="70" selection-end-column="95" />
+          <folding>
+            <marker date="1538413341296" expanded="true" signature="0:631" ph="/* Copyright 2018 Confluent Inc. ... */" />
+            <marker date="1538413341296" expanded="false" signature="639:768" ph="..." />
+            <marker date="1538413341296" expanded="true" signature="810:3681" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="894:3679" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="909:1117" ph="/// &lt;remarks&gt; ... " />
+            <marker date="1538413341296" expanded="true" signature="1485:1567" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="1637:3672" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="1660:1793" ph="/* Note: topic is not necessary for deserialization (or knowing if it's a key ... */" />
+            <marker date="1538413341296" expanded="true" signature="1909:3662" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="2028:2209" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="2534:3538" ph="{...}" />
+            <marker date="1538413341296" expanded="true" signature="2581:2887" ph="/* TODO: If any of this cache fills up, this is probably an ... */" />
+            <marker date="1538413341296" expanded="true" signature="2984:3095" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/CachedSchemaRegistryClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.SchemaRegistry/ISchemaRegistryClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/AvroGeneric/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1539361419308" expanded="true" signature="0:631" ph="/* Copyright 2018 Confluent Inc. ... */" />
+            <marker date="1539361419308" expanded="false" signature="639:803" ph="..." />
+            <marker date="1539361419308" expanded="true" signature="853:5760" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="873:5758" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="919:5752" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="963:1108" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="1409:2076" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="1427:1580" ph="/* Note: you can specify more than one schema registry url using the ... */" />
+            <marker date="1539361419308" expanded="true" signature="1734:2062" ph="/* optional schema registry client properties: ... */" />
+            <marker date="1539361419308" expanded="true" signature="2143:2263" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="3037:4547" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="3327:4533" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="3576:4476" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="3626:4268" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="3732:3967" ph="/* foreach (var VARIABLE in consumeResult.Value) ... */" />
+            <marker date="1539361419308" expanded="true" signature="4319:4454" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="4837:5715" ph="{...}" />
+            <marker date="1539361419308" expanded="true" signature="5077:5701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/LogMessage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <marker date="1540327461913" expanded="true" signature="0:350" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1540327461913" expanded="true" signature="373:2492" ph="{...}" />
+            <marker date="1540327461913" expanded="false" signature="383:496" ph="..." />
+            <marker date="1540327461913" expanded="true" signature="549:2490" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1205:1261" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1216:1257" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1280:1365" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1291:1322" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1329:1361" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1389:1484" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1400:1436" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1443:1480" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1532:1621" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1543:1576" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1583:1617" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1661:1758" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1672:1709" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1716:1754" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1800:2044" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="1825:2039" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="2103:2487" ph="{...}" />
+            <marker date="1540327461913" expanded="true" signature="2128:2482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/AvroBlogExamples/ProviderLocationUpdated.V1.asvc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/90/d5c4603c/ReceiveActor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/b5/8fc4ae21/Pool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/AvroBlogExamples/MessageTypes/JBTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1540329738521" expanded="true" signature="0:350" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1540329738521" expanded="true" signature="373:1408" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="383:496" ph="..." />
+            <marker date="1540329738521" expanded="true" signature="547:1406" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="551:739" ph="/* public static Schema _SCHEMA = Schema.Parse(&quot;{\&quot;type\&quot;:\&quot;record\&quot;,\&quot;name\&quot;:\&quot;JBTest\&quot;,\&quot;namespace\&quot;:\&quot;MessageT ... */" />
+            <marker date="1540329738521" expanded="true" signature="764:860" ph="/* public virtual Schema Schema ... */" />
+            <marker date="1540329738521" expanded="true" signature="881:970" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="892:925" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="932:966" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="1012:1164" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="1037:1159" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="1223:1403" ph="{...}" />
+            <marker date="1540329738521" expanded="true" signature="1248:1398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/AvroBlogExamples/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
+          <folding>
+            <marker date="1540331143187" expanded="true" signature="0:631" ph="/* Copyright 2018 Confluent Inc. ... */" />
+            <marker date="1540331143187" expanded="true" signature="639:896" ph="..." />
+            <marker date="1540331143187" expanded="true" signature="924:8464" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="931:1080" ph="///     Complete source for the examples programs presented in the blog post: ... " />
+            <marker date="1540331143187" expanded="true" signature="1098:8462" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="1289:2979" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="1472:1614" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="1857:2969" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="3095:4580" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="3278:3420" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="3683:4570" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="3832:4479" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="3920:4457" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="4216:4346" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="4696:7251" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="4828:4947" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="5014:5198" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="5279:5421" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="5666:7241" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="5781:7131" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="5823:6940" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="6075:6504" ph="/* var jbTest = (JBTest)Activator.CreateInstance(type); ... */" />
+            <marker date="1540331143187" expanded="true" signature="6987:7113" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="7490:8456" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="7533:7615" ph="{...}" />
+            <marker date="1540331143187" expanded="true" signature="7854:8446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka.Avro/SpecificSerializerImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="139" column="66" selection-start-line="139" selection-start-column="66" selection-end-line="139" selection-end-column="66" />
+          <folding>
+            <marker date="1538415520192" expanded="true" signature="0:631" ph="/* Copyright 2018 Confluent Inc. ... */" />
+            <marker date="1538415520192" expanded="false" signature="639:820" ph="..." />
+            <marker date="1538415520192" expanded="true" signature="862:5904" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="934:5902" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="1611:4171" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="1941:2102" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="2155:2240" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="2294:2383" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="2439:2527" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="2583:2897" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="2614:2823" ph="/* Note: It would arguably be better to make this a union with null, to ... */" />
+            <marker date="1538415520192" expanded="true" signature="2952:3039" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="3093:3179" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="3235:3548" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="3266:3475" ph="/* Note: It would arguably be better to make this a union with null, to ... */" />
+            <marker date="1538415520192" expanded="true" signature="3602:3688" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="3705:4040" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="4226:5668" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="4343:5142" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="5284:5658" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="5708:5896" ph="{...}" />
+            <marker date="1538415520192" expanded="true" signature="5775:5848" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/a3/e6b6e345/BroadcastPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="44" column="86" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderLocationPublisher.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Metadata.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="45" column="87" lean-forward="true" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="87" />
+          <folding>
+            <marker date="1538409149976" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538409149976" expanded="false" signature="747:812" ph="..." />
+            <marker date="1538409149976" expanded="true" signature="840:3375" ph="{...}" />
+            <marker date="1538409149976" expanded="true" signature="847:915" ph="///     Kafka cluster metadata. ... " />
+            <marker date="1538409149976" expanded="true" signature="941:3373" ph="{...}" />
+            <marker date="1538409149976" expanded="true" signature="956:1576" ph="///     Instantiates a new Metadata class instance. ... " />
+            <marker date="1538409149976" expanded="true" signature="1713:1907" ph="{...}" />
+            <marker date="1538409149976" expanded="true" signature="1917:2032" ph="///     Gets information about each constituent broker of the cluster. ... " />
+            <marker date="1538409149976" expanded="true" signature="2095:2203" ph="///     Gets information about requested topics in the cluster. ... " />
+            <marker date="1538409149976" expanded="true" signature="2264:2371" ph="///     Gets the id of the broker that provided this metadata. ... " />
+            <marker date="1538409149976" expanded="true" signature="2429:2538" ph="///     Gets the name of the broker that provided this metadata. ... " />
+            <marker date="1538409149976" expanded="true" signature="2601:2814" ph="///     Returns a JSON representation of the Metadata object. ... " />
+            <marker date="1538409149976" expanded="true" signature="2856:3367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Message_KV.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <marker date="1538413342660" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413342660" expanded="true" signature="767:1824" ph="{...}" />
+            <marker date="1538413342660" expanded="true" signature="774:871" ph="///     Represents a (deserialized) message stored in Kafka. ... " />
+            <marker date="1538413342660" expanded="true" signature="910:1822" ph="{...}" />
+            <marker date="1538413342660" expanded="true" signature="925:1021" ph="///     Gets the message key value (possibly null). ... " />
+            <marker date="1538413342660" expanded="true" signature="1069:1161" ph="///     Gets the message value (possibly null). ... " />
+            <marker date="1538413342660" expanded="true" signature="1213:1457" ph="///     The message timestamp. The timestamp type must be set to CreateTime.  ... " />
+            <marker date="1538413342660" expanded="true" signature="1516:1771" ph="///     The collection of message headers (or null). Specifying null or an  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Offset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <marker date="1538413342710" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413342710" expanded="true" signature="782:10281" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="789:1069" ph="///     Represents a Kafka partition offset value. ... " />
+            <marker date="1538413342710" expanded="true" signature="1115:10279" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="1362:1507" ph="///     A special value that refers to the beginning of a partition. ... " />
+            <marker date="1538413342710" expanded="true" signature="1614:1753" ph="///     A special value that refers to the end of a partition. ... " />
+            <marker date="1538413342710" expanded="true" signature="1848:1998" ph="///     A special value thet refers to the stored offset for a partition. ... " />
+            <marker date="1538413342710" expanded="true" signature="2099:2234" ph="///     A special value that refers to an invalid, unassigned or default partition offset. ... " />
+            <marker date="1538413342710" expanded="true" signature="2337:2529" ph="///     Initializes a new instance of the Offset structure. ... " />
+            <marker date="1538413342710" expanded="true" signature="2564:2612" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="2622:2724" ph="///     Gets the long value corresponding to this offset. ... " />
+            <marker date="1538413342710" expanded="true" signature="2769:2900" ph="///     Gets whether or not this is one of the special  ... " />
+            <marker date="1538413342710" expanded="true" signature="2930:3236" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="2956:3226" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="3246:3579" ph="///     Tests whether this Offset value is equal to the specified object. ... " />
+            <marker date="1538413342710" expanded="true" signature="3627:3769" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="3670:3732" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="3779:4099" ph="///     Tests whether this Offset value is equal to the specified Offset. ... " />
+            <marker date="1538413342710" expanded="true" signature="4187:4617" ph="///     Tests whether Offset value a is equal to Offset value b. ... " />
+            <marker date="1538413342710" expanded="true" signature="4714:5152" ph="///     Tests whether Offset value a is not equal to Offset value b. ... " />
+            <marker date="1538413342710" expanded="true" signature="5247:5696" ph="///     Tests whether Offset value a is greater than Offset value b. ... " />
+            <marker date="1538413342710" expanded="true" signature="5798:6241" ph="///     Tests whether Offset value a is less than Offset value b. ... " />
+            <marker date="1538413342710" expanded="true" signature="6343:6816" ph="///     Tests whether Offset value a is greater than or equal to Offset value b. ... " />
+            <marker date="1538413342710" expanded="true" signature="6920:7387" ph="///     Tests whether Offset value a is less than or equal to Offset value b. ... " />
+            <marker date="1538413342710" expanded="true" signature="7491:7922" ph="///     Add an integer value to an Offset value. ... " />
+            <marker date="1538413342710" expanded="true" signature="8029:8447" ph="///     Add a long value to an Offset value. ... " />
+            <marker date="1538413342710" expanded="true" signature="8555:8761" ph="///     Returns a hash code for this Offset. ... " />
+            <marker date="1538413342710" expanded="true" signature="8849:9048" ph="///     Converts the specified long value to an Offset value. ... " />
+            <marker date="1538413342710" expanded="true" signature="9143:9343" ph="///     Converts the specified Offset value to a long value. ... " />
+            <marker date="1538413342710" expanded="true" signature="9432:9643" ph="///     Returns a string representation of the Offset object. ... " />
+            <marker date="1538413342710" expanded="true" signature="9685:10273" ph="{...}" />
+            <marker date="1538413342710" expanded="true" signature="9722:10263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/ConsumeResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1538413341892" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413341892" expanded="true" signature="767:3103" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="774:870" ph="///     Represents a message consumed from a Kafka cluster. ... " />
+            <marker date="1538413341892" expanded="true" signature="915:3101" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="930:1021" ph="///     The topic associated with the message. ... " />
+            <marker date="1538413341892" expanded="true" signature="1073:1168" ph="///     The partition associated with the message. ... " />
+            <marker date="1538413341892" expanded="true" signature="1227:1329" ph="///     The partition offset associated with the message. ... " />
+            <marker date="1538413341892" expanded="true" signature="1382:1482" ph="///     The TopicPartition associated with the message. ... " />
+            <marker date="1538413341892" expanded="true" signature="1590:1696" ph="///     The TopicPartitionOffset assoicated with the message. ... " />
+            <marker date="1538413341892" expanded="true" signature="1753:2057" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="1779:1882" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="1898:2047" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="2067:2138" ph="///     The Kafka message. ... " />
+            <marker date="1538413341892" expanded="true" signature="2207:2282" ph="///     The Kafka message Key. ... " />
+            <marker date="1538413341892" expanded="true" signature="2306:2407" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="2417:2494" ph="///     The Kafka message Value. ... " />
+            <marker date="1538413341892" expanded="true" signature="2522:2627" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="2637:2718" ph="///     The Kafka message timestamp. ... " />
+            <marker date="1538413341892" expanded="true" signature="2753:2866" ph="{...}" />
+            <marker date="1538413341892" expanded="true" signature="2876:2955" ph="///     The Kafka message headers. ... " />
+            <marker date="1538413341892" expanded="true" signature="2986:3095" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/KafkaException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <marker date="1538409149916" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538409149916" expanded="true" signature="782:2466" ph="{...}" />
+            <marker date="1538409149916" expanded="true" signature="789:900" ph="///     Represents an error that occured during an interaction with Kafka. ... " />
+            <marker date="1538409149916" expanded="true" signature="944:2464" ph="{...}" />
+            <marker date="1538409149916" expanded="true" signature="959:1197" ph="///     Initialize a new instance of KafkaException based on  ... " />
+            <marker date="1538409149916" expanded="true" signature="1277:1324" ph="{...}" />
+            <marker date="1538409149916" expanded="true" signature="1334:1720" ph="///     Initialize a new instance of KafkaException based on ... " />
+            <marker date="1538409149916" expanded="true" signature="1838:1897" ph="{...}" />
+            <marker date="1538409149916" expanded="true" signature="1907:2149" ph="///     Initialize a new instance of KafkaException based on  ... " />
+            <marker date="1538409149916" expanded="true" signature="2251:2308" ph="{...}" />
+            <marker date="1538409149916" expanded="true" signature="2318:2422" ph="///     Gets the Error associated with this KafkaException. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/IProducer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <marker date="1538413342264" expanded="true" signature="0:631" ph="/* Copyright 2018 Confluent Inc. ... */" />
+            <marker date="1538413342264" expanded="false" signature="639:888" ph="..." />
+            <marker date="1538413342264" expanded="true" signature="916:3262" ph="{...}" />
+            <marker date="1538413342264" expanded="true" signature="923:1072" ph="///     Defines a high-level Apache Kafka producer client that provides key ... " />
+            <marker date="1538413342264" expanded="true" signature="1127:3260" ph="{...}" />
+            <marker date="1538413342264" expanded="true" signature="1142:1320" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.ProduceAsync(string, Message{TKey, TValue}, Ca ... " />
+            <marker date="1538413342264" expanded="true" signature="1536:1722" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.ProduceAsync(TopicPartition, Message{TKey, TVa ... " />
+            <marker date="1538413342264" expanded="true" signature="1955:2158" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.BeginProduce(string, Message{TKey, TValue}, Ac ... " />
+            <marker date="1538413342264" expanded="true" signature="2301:2512" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.BeginProduce(TopicPartition, Message{TKey, TVa ... " />
+            <marker date="1538413342264" expanded="true" signature="2672:2802" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.Poll(TimeSpan)&quot; /&gt; ... " />
+            <marker date="1538413342264" expanded="true" signature="2849:2980" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.Flush(TimeSpan)&quot; /&gt; ... " />
+            <marker date="1538413342264" expanded="true" signature="3028:3168" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}.Flush(CancellationToken)&quot; /&gt; ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/DeliveryReportResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <marker date="1538413341961" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413341961" expanded="true" signature="767:3565" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="774:864" ph="///     Encapsulates the result of a produce request. ... " />
+            <marker date="1538413341961" expanded="true" signature="916:3563" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="931:1022" ph="///     The topic associated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="1074:1169" ph="///     The partition associated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="1228:1330" ph="///     The partition offset associated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="1383:1486" ph="///     An error (or NoError) associated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="1537:1637" ph="///     The TopicPartition associated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="1745:1851" ph="///     The TopicPartitionOffset associated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="1985:2096" ph="///     The TopicPartitionOffsetError assoicated with the message. ... " />
+            <marker date="1538413341961" expanded="true" signature="2163:2516" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="2189:2304" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="2320:2506" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="2526:2597" ph="///     The Kafka message. ... " />
+            <marker date="1538413341961" expanded="true" signature="2666:2741" ph="///     The Kafka message Key. ... " />
+            <marker date="1538413341961" expanded="true" signature="2765:2866" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="2876:2953" ph="///     The Kafka message Value. ... " />
+            <marker date="1538413341961" expanded="true" signature="2981:3086" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="3096:3177" ph="///     The Kafka message timestamp. ... " />
+            <marker date="1538413341961" expanded="true" signature="3212:3325" ph="{...}" />
+            <marker date="1538413341961" expanded="true" signature="3335:3414" ph="///     The Kafka message headers. ... " />
+            <marker date="1538413341961" expanded="true" signature="3445:3554" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/DeliveryReport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <marker date="1538413341944" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413341944" expanded="true" signature="767:3113" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="774:875" ph="///     Encapsulates the result of a successful produce request. ... " />
+            <marker date="1538413341944" expanded="true" signature="921:3111" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="936:1027" ph="///     The topic associated with the message. ... " />
+            <marker date="1538413341944" expanded="true" signature="1079:1174" ph="///     The partition associated with the message. ... " />
+            <marker date="1538413341944" expanded="true" signature="1233:1335" ph="///     The partition offset associated with the message. ... " />
+            <marker date="1538413341944" expanded="true" signature="1388:1488" ph="///     The TopicPartition associated with the message. ... " />
+            <marker date="1538413341944" expanded="true" signature="1597:1703" ph="///     The TopicPartitionOffset assoicated with the message. ... " />
+            <marker date="1538413341944" expanded="true" signature="1760:2064" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="1786:1889" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="1905:2054" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="2074:2145" ph="///     The Kafka message. ... " />
+            <marker date="1538413341944" expanded="true" signature="2214:2289" ph="///     The Kafka message Key. ... " />
+            <marker date="1538413341944" expanded="true" signature="2313:2414" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="2424:2501" ph="///     The Kafka message Value. ... " />
+            <marker date="1538413341944" expanded="true" signature="2529:2634" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="2644:2725" ph="///     The Kafka message timestamp. ... " />
+            <marker date="1538413341944" expanded="true" signature="2760:2873" ph="{...}" />
+            <marker date="1538413341944" expanded="true" signature="2883:2962" ph="///     The Kafka message headers. ... " />
+            <marker date="1538413341944" expanded="true" signature="2993:3102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Consumer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5347">
+          <caret line="375" column="39" selection-start-line="375" selection-start-column="39" selection-end-line="375" selection-end-column="39" />
+          <folding>
+            <marker date="1538413341925" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413341925" expanded="false" signature="747:959" ph="..." />
+            <marker date="1538413341925" expanded="true" signature="987:52567" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="994:1462" ph="///     A deserializer for use with &lt;see cref=&quot;Confluent.Kafka.Consumer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413341925" expanded="true" signature="1559:1861" ph="///     A generator for &lt;see cref=&quot;Confluent.Kafka.Deserializer{T}&quot; /&gt; instances. ... " />
+            <marker date="1538413341925" expanded="true" signature="1942:2033" ph="///     Implements a high-level Apache Kafka consumer. ... " />
+            <marker date="1538413341925" expanded="true" signature="2099:52565" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="2233:2403" ph="///     keeps track of whether or not assign has been called during ... " />
+            <marker date="1538413341925" expanded="true" signature="3047:3337" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="3502:3867" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="4077:4555" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="4100:4355" ph="/* Ensure registered handlers are never called as a side-effect of Dispose/Finalize (prevents deadlocks in common ... */" />
+            <marker date="1538413341925" expanded="true" signature="4777:6997" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="5097:5504" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="5129:5396" ph="/* The RebalanceCallback should never be invoked as a side effect of Dispose. ... */" />
+            <marker date="1538413341925" expanded="true" signature="5562:6278" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="5707:6168" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="5919:6150" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="6340:6987" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="6484:6945" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="6696:6927" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="7207:7605" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="7615:7722" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnLog&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="7785:7894" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnError&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="7959:8073" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnStatistics&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="8139:8972" ph="///     Creates a new &lt;see cref=&quot;Confluent.Kafka.Consumer{TKey, TValue}&quot; /&gt; instance. ... " />
+            <marker date="1538413341925" expanded="true" signature="9268:10161" ph="///     Creates a new &lt;see cref=&quot;Confluent.Kafka.Consumer{TKey, TValue}&quot; /&gt; instance. ... " />
+            <marker date="1538413341925" expanded="true" signature="10384:16334" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="10831:10964" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11006:11875" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11070:11186" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11243:11361" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11418:11539" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11596:11712" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11733:11861" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11919:12814" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="11985:12105" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="12164:12286" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="12345:12470" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="12529:12649" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="12670:12800" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="12939:13085" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="13416:14623" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="13542:14609" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="13780:14591" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="13909:14569" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="13977:14543" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="14770:14988" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="16085:16324" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="16403:16714" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="16495:16662" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="16785:17081" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="16877:17036" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="17161:23452" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="17290:17347" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="17364:23342" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="17556:17778" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="17622:17760" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="17840:18019" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="18182:18311" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="18488:19611" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="18675:19593" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="18742:19571" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="18966:19065" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="19257:19467" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="19662:20387" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="19811:20302" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="20018:20276" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="20434:20835" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="20479:20817" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="20872:21639" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="21021:21512" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="21228:21486" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="21688:22063" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="21733:22045" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="22100:22869" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="22249:22740" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="22456:22714" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="22943:23327" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="23125:23309" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="23362:23442" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="23463:24088" ph="///     Poll for new messages / events. Blocks until a consume result ... " />
+            <marker date="1538413341925" expanded="true" signature="24227:24879" ph="///     Poll for new messages / events. Blocks until a consume result ... " />
+            <marker date="1538413341925" expanded="true" signature="24996:25259" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="25031:25249" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="25270:26447" ph="///     Raised when a new partition assignment is received. ... " />
+            <marker date="1538413341925" expanded="true" signature="26536:27479" ph="///     Raised when a partition assignment is revoked. ... " />
+            <marker date="1538413341925" expanded="true" signature="27567:27975" ph="///     Raised to report the result of (automatic) offset commits. ... " />
+            <marker date="1538413341925" expanded="true" signature="28058:28320" ph="///     Raised when the consumer reaches the end of a topic/partition it is reading from. ... " />
+            <marker date="1538413341925" expanded="true" signature="28403:28597" ph="///     Gets the current partition assignment as set by ... " />
+            <marker date="1538413341925" expanded="true" signature="28699:28890" ph="///     Gets the current partition subscription as set by ... " />
+            <marker date="1538413341925" expanded="true" signature="28988:29939" ph="///     Update the subscription set to topics. ... " />
+            <marker date="1538413341925" expanded="true" signature="30054:30592" ph="///     Update the subscription set to a single topic. ... " />
+            <marker date="1538413341925" expanded="true" signature="30690:30789" ph="///     Unsubscribe from the current subscription set. ... " />
+            <marker date="1538413341925" expanded="true" signature="30876:31448" ph="///     Update the assignment set to a single &lt;paramref name=&quot;partition&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="31575:32222" ph="///     Update the assignment set to a single &lt;paramref name=&quot;partition&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="32361:33059" ph="///     Update the assignment set to &lt;paramref name=&quot;partitions&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="33132:33239" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="33250:33857" ph="///     Update the assignment set to &lt;paramref name=&quot;partitions&quot; /&gt;. ... " />
+            <marker date="1538413341925" expanded="true" signature="33924:34088" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="34099:34203" ph="///     Stop consumption and remove the current assignment. ... " />
+            <marker date="1538413341925" expanded="true" signature="34234:34326" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="34336:35347" ph="///     Store offsets for a single partition based on the topic/partition/offset ... " />
+            <marker date="1538413341925" expanded="true" signature="35533:36588" ph="///     Store offsets for one or more partitions. ... " />
+            <marker date="1538413341925" expanded="true" signature="36725:37556" ph="///     Commit all offsets for the current assignment. ... " />
+            <marker date="1538413341925" expanded="true" signature="37777:38903" ph="///     Commits an offset based on the topic/partition/offset of a ConsumeResult. ... " />
+            <marker date="1538413341925" expanded="true" signature="39061:39402" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="39111:39270" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="39413:40554" ph="///     Commit an explicit list of offsets. ... " />
+            <marker date="1538413341925" expanded="true" signature="40799:41603" ph="///     Seek to &lt;parmref name=&quot;offset&quot;/&gt; on the specified topic/partition which is either ... " />
+            <marker date="1538413341925" expanded="true" signature="41740:42239" ph="///     Pause consumption for the provided list of partitions. ... " />
+            <marker date="1538413341925" expanded="true" signature="42362:42863" ph="///     Resume consumption for the provided list of partitions. ... " />
+            <marker date="1538413341925" expanded="true" signature="42988:44385" ph="///     Retrieve current committed offsets for the specified topic/partitions. ... " />
+            <marker date="1538413341925" expanded="true" signature="44752:45678" ph="///     Gets the current positions (offsets) for the specified topics + partitions. ... " />
+            <marker date="1538413341925" expanded="true" signature="45883:47661" ph="///     Look up the offsets for the given partitions by timestamp. The returned ... " />
+            <marker date="1538413341925" expanded="true" signature="48057:48202" ph="///     Gets the (dynamic) group member id of this consumer (as  ... " />
+            <marker date="1538413341925" expanded="true" signature="48281:48400" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.AddBrokers(string)&quot; /&gt; ... " />
+            <marker date="1538413341925" expanded="true" signature="48504:48609" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.Name&quot; /&gt; ... " />
+            <marker date="1538413341925" expanded="true" signature="48680:48954" ph="///     An opaque reference to the underlying librdkafka client instance. ... " />
+            <marker date="1538413341925" expanded="true" signature="49070:50258" ph="///     Commits offsets, alerts the group coodinator that the consumer is ... " />
+            <marker date="1538413341925" expanded="true" signature="50286:50463" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="50474:51247" ph="///     Releases all resources used by this Consumer without ... " />
+            <marker date="1538413341925" expanded="true" signature="51277:51363" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="51374:51791" ph="///     Releases the unmanaged resources used by the ... " />
+            <marker date="1538413341925" expanded="true" signature="51846:52558" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="52137:52548" ph="{...}" />
+            <marker date="1538413341925" expanded="true" signature="52168:52495" ph="/* calls to rd_kafka_destroy may result in callbacks ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/LogMessage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <folding>
+            <marker date="1538413342595" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413342595" expanded="true" signature="766:2378" ph="{...}" />
+            <marker date="1538413342595" expanded="true" signature="773:902" ph="///     Encapsulates information provided to the  ... " />
+            <marker date="1538413342595" expanded="true" signature="930:2376" ph="{...}" />
+            <marker date="1538413342595" expanded="true" signature="945:1515" ph="///     Instantiates a new LogMessage class instance. ... " />
+            <marker date="1538413342595" expanded="true" signature="1606:1742" ph="{...}" />
+            <marker date="1538413342595" expanded="true" signature="1752:1846" ph="///     Gets the librdkafka client instance name. ... " />
+            <marker date="1538413342595" expanded="true" signature="1892:2013" ph="///     Gets the log level (levels correspond to syslog(3)), lower is worse. ... " />
+            <marker date="1538413342595" expanded="true" signature="2073:2199" ph="///     Gets the facility (section of librdkafka code) that produced the message. ... " />
+            <marker date="1538413342595" expanded="true" signature="2257:2331" ph="///     Gets the log message. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Message.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <marker date="1538413342648" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413342648" expanded="true" signature="782:1812" ph="{...}" />
+            <marker date="1538413342648" expanded="true" signature="789:871" ph="///     Represents a message stored in Kafka. ... " />
+            <marker date="1538413342648" expanded="true" signature="896:1810" ph="{...}" />
+            <marker date="1538413342648" expanded="true" signature="911:1003" ph="///     Gets the message value (possibly null). ... " />
+            <marker date="1538413342648" expanded="true" signature="1055:1151" ph="///     Gets the message key value (possibly null). ... " />
+            <marker date="1538413342648" expanded="true" signature="1201:1445" ph="///     The message timestamp. The timestamp type must be set to CreateTime.  ... " />
+            <marker date="1538413342648" expanded="true" signature="1504:1759" ph="///     The collection of message headers (or null). Specifying null or an  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Config.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="132" column="22" lean-forward="true" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+          <folding>
+            <marker date="1538413341802" expanded="true" signature="0:686" ph="/* Auto-generated *** - do not modify manually. ... */" />
+            <marker date="1538413341802" expanded="false" signature="694:780" ph="..." />
+            <marker date="1538413341802" expanded="true" signature="808:47787" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="815:891" ph="///     BrokerAddressFamily enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="931:1174" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="946:1002" ph="///     Any ... " />
+            <marker date="1538413341802" expanded="true" signature="1025:1080" ph="///     V4 ... " />
+            <marker date="1538413341802" expanded="true" signature="1102:1157" ph="///     V6 ... " />
+            <marker date="1538413341802" expanded="true" signature="1180:1253" ph="///     SecurityProtocol enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="1290:1660" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="1305:1367" ph="///     Plaintext ... " />
+            <marker date="1538413341802" expanded="true" signature="1396:1452" ph="///     Ssl ... " />
+            <marker date="1538413341802" expanded="true" signature="1475:1542" ph="///     Sasl_Plaintext ... " />
+            <marker date="1538413341802" expanded="true" signature="1576:1637" ph="///     Sasl_Ssl ... " />
+            <marker date="1538413341802" expanded="true" signature="1666:1750" ph="///     PartitionAssignmentStrategy enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="1798:1984" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="1813:1871" ph="///     Range ... " />
+            <marker date="1538413341802" expanded="true" signature="1896:1959" ph="///     Roundrobin ... " />
+            <marker date="1538413341802" expanded="true" signature="1990:2062" ph="///     QueuingStrategy enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="2098:2270" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="2113:2170" ph="///     Fifo ... " />
+            <marker date="1538413341802" expanded="true" signature="2194:2251" ph="///     Lifo ... " />
+            <marker date="1538413341802" expanded="true" signature="2276:2344" ph="///     Partitioner enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="2376:2859" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="2391:2450" ph="///     Random ... " />
+            <marker date="1538413341802" expanded="true" signature="2476:2539" ph="///     Consistent ... " />
+            <marker date="1538413341802" expanded="true" signature="2569:2639" ph="///     Consistent_Random ... " />
+            <marker date="1538413341802" expanded="true" signature="2676:2736" ph="///     Murmur2 ... " />
+            <marker date="1538413341802" expanded="true" signature="2763:2830" ph="///     Murmur2_Random ... " />
+            <marker date="1538413341802" expanded="true" signature="2865:2937" ph="///     AutoOffsetReset enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="2973:3240" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="2988:3047" ph="///     Latest ... " />
+            <marker date="1538413341802" expanded="true" signature="3073:3134" ph="///     Earliest ... " />
+            <marker date="1538413341802" expanded="true" signature="3162:3220" ph="///     Error ... " />
+            <marker date="1538413341802" expanded="true" signature="3246:3316" ph="///     SaslMechanism enum values ... " />
+            <marker date="1538413341802" expanded="true" signature="3350:3722" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="3365:3424" ph="///     GSSAPI ... " />
+            <marker date="1538413341802" expanded="true" signature="3450:3508" ph="///     PLAIN ... " />
+            <marker date="1538413341802" expanded="true" signature="3533:3599" ph="///     SCRAM-SHA-256 ... " />
+            <marker date="1538413341802" expanded="true" signature="3630:3696" ph="///     SCRAM-SHA-512 ... " />
+            <marker date="1538413341802" expanded="true" signature="3728:3808" ph="///     Configuration common to all clients ... " />
+            <marker date="1538413341802" expanded="true" signature="3882:31179" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="3897:4010" ph="///     Initialize a new empty &lt;see cref=&quot;ClientConfig&quot; /&gt; instance. ... " />
+            <marker date="1538413341802" expanded="true" signature="4053:4234" ph="///     Initialize a new &lt;see cref=&quot;ClientConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="4394:4564" ph="///     Initialize a new &lt;see cref=&quot;ClientConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="4753:5419" ph="///     Set a configuration property using a string key / value pair. ... " />
+            <marker date="1538413341802" expanded="true" signature="5467:5527" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="5537:5900" ph="///     Gets a configuration property value given a key. Returns null if  ... " />
+            <marker date="1538413341802" expanded="true" signature="5938:6105" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="6014:6070" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="6115:6419" ph="///     Gets a configuration property int? value given a key. ... " />
+            <marker date="1538413341802" expanded="true" signature="6461:6603" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="6621:6926" ph="///     Gets a configuration property bool? value given a key. ... " />
+            <marker date="1538413341802" expanded="true" signature="6970:7113" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="7123:7541" ph="///     Gets a configuration property enum value given a key. ... " />
+            <marker date="1538413341802" expanded="true" signature="7597:7746" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="7756:7878" ph="///     Set a configuration property using a key / value pair (null checked). ... " />
+            <marker date="1538413341802" expanded="true" signature="7936:8308" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="7975:8073" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="8103:8197" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="8214:8298" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="8318:8400" ph="///     The configuration properties. ... " />
+            <marker date="1538413341802" expanded="true" signature="8502:8750" ph="///     &#9;Returns an enumerator that iterates through the property collection. ... " />
+            <marker date="1538413341802" expanded="true" signature="8869:9117" ph="///     &#9;Returns an enumerator that iterates through the property collection. ... " />
+            <marker date="1538413341802" expanded="true" signature="9211:9436" ph="///     SASL mechanism to use for authentication. Supported: GSSAPI, PLAIN, SCRAM-SHA-256, SCRAM-SHA-512. **NOTE* ... " />
+            <marker date="1538413341802" expanded="true" signature="9484:10720" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="9510:10026" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="10042:10710" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="10730:10801" ph="///     Client identifier. ... " />
+            <marker date="1538413341802" expanded="true" signature="10923:11127" ph="///     Initial list of brokers as a CSV list of broker host or host:port. The application may also use `rd_kafka ... " />
+            <marker date="1538413341802" expanded="true" signature="11273:11370" ph="///     Maximum Kafka protocol request message size. ... " />
+            <marker date="1538413341802" expanded="true" signature="11516:11716" ph="///     Maximum size for message to be copied to buffer. Messages larger than this will be passed by reference (z ... " />
+            <marker date="1538413341802" expanded="true" signature="11876:12181" ph="///     Maximum Kafka protocol response message size. This serves as a safety precaution to avoid memory exhausti ... " />
+            <marker date="1538413341802" expanded="true" signature="12350:12696" ph="///     Maximum number of in-flight requests per broker connection. This is a generic property applied to all bro ... " />
+            <marker date="1538413341802" expanded="true" signature="12830:12961" ph="///     Non-topic request timeout in milliseconds. This is for metadata requests, etc. ... " />
+            <marker date="1538413341802" expanded="true" signature="13136:13342" ph="///     Topic metadata refresh interval in milliseconds. The metadata is automatically refreshed on error and con ... " />
+            <marker date="1538413341802" expanded="true" signature="13537:13664" ph="///     Metadata cache max age. Defaults to topic.metadata.refresh.interval.ms * 3 ... " />
+            <marker date="1538413341802" expanded="true" signature="13815:14102" ph="///     When a topic loses its leader a new metadata request will be enqueued with this initial interval, exponen ... " />
+            <marker date="1538413341802" expanded="true" signature="14311:14422" ph="///     Sparse metadata requests (consumes less network bandwidth) ... " />
+            <marker date="1538413341802" expanded="true" signature="14605:14831" ph="///     Topic blacklist, a comma-separated list of regular expressions for matching topic names that should be ig ... " />
+            <marker date="1538413341802" expanded="true" signature="14971:15158" ph="///     A comma-separated list of debug contexts to enable. Detailed Producer debugging: broker,topic,msg. Consum ... " />
+            <marker date="1538413341802" expanded="true" signature="15269:15705" ph="///     Default timeout for network requests. Producer: ProduceRequests will use the lesser value of `socket.time ... " />
+            <marker date="1538413341802" expanded="true" signature="15851:16051" ph="///     Maximum time a broker socket operation may block. A lower value improves responsiveness at the expense of ... " />
+            <marker date="1538413341802" expanded="true" signature="16211:16324" ph="///     Broker socket send buffer size. System default is used if 0. ... " />
+            <marker date="1538413341802" expanded="true" signature="16490:16606" ph="///     Broker socket receive buffer size. System default is used if 0. ... " />
+            <marker date="1538413341802" expanded="true" signature="16781:16889" ph="///     Enable TCP keep-alives (SO_KEEPALIVE) on broker sockets ... " />
+            <marker date="1538413341802" expanded="true" signature="17055:17168" ph="///     Disable the Nagle algorithm (TCP_NODELAY) on broker sockets. ... " />
+            <marker date="1538413341802" expanded="true" signature="17325:17710" ph="///     Disconnect from broker when this number of send failures (e.g., timed out requests) is reached. Disable w ... " />
+            <marker date="1538413341802" expanded="true" signature="17853:17976" ph="///     How long to cache the broker address resolving results (milliseconds). ... " />
+            <marker date="1538413341802" expanded="true" signature="18125:18225" ph="///     Allowed broker IP address families: any, v4, v6 ... " />
+            <marker date="1538413341802" expanded="true" signature="18463:18574" ph="///     Throttle broker reconnection attempts by this value +-50%. ... " />
+            <marker date="1538413341802" expanded="true" signature="18749:18993" ph="///     librdkafka statistics emit interval. The application also needs to register a stats callback using `rd_ka ... " />
+            <marker date="1538413341802" expanded="true" signature="19154:19239" ph="///     Logging level (syslog(3) levels) ... " />
+            <marker date="1538413341802" expanded="true" signature="19363:19706" ph="///     Disable spontaneous log_cb from internal librdkafka threads, instead enqueue log messages on queue set wi ... " />
+            <marker date="1538413341802" expanded="true" signature="19831:19970" ph="///     Print internal thread name in log messages (useful for debugging librdkafka internals) ... " />
+            <marker date="1538413341802" expanded="true" signature="20112:20309" ph="///     Log broker disconnects. It might be useful to turn this off when interacting with 0.9 brokers with an agg ... " />
+            <marker date="1538413341802" expanded="true" signature="20466:20889" ph="///     Signal that librdkafka will use to quickly terminate on rd_kafka_destroy(). If this signal is not set the ... " />
+            <marker date="1538413341802" expanded="true" signature="21065:21470" ph="///     Request broker's supported API versions to adjust functionality to available protocol features. If set to ... " />
+            <marker date="1538413341802" expanded="true" signature="21624:21717" ph="///     Timeout for broker API version requests. ... " />
+            <marker date="1538413341802" expanded="true" signature="21900:22177" ph="///     Dictates how long the `broker.version.fallback` fallback is used in the case the ApiVersionRequest fails. ... " />
+            <marker date="1538413341802" expanded="true" signature="22340:22991" ph="///     Older broker versions (before 0.10.0) provide no way for a client to query for supported protocol feature ... " />
+            <marker date="1538413341802" expanded="true" signature="23154:23249" ph="///     Protocol used to communicate with brokers. ... " />
+            <marker date="1538413341802" expanded="true" signature="23467:23785" ph="///     A cipher suite is a named combination of authentication, encryption, MAC and key exchange algorithm used  ... " />
+            <marker date="1538413341802" expanded="true" signature="23930:24238" ph="///     The supported-curves extension in the TLS ClientHello message specifies the curves (standard/named, or 'e ... " />
+            <marker date="1538413341802" expanded="true" signature="24377:24673" ph="///     The client uses the TLS ClientHello signature_algorithms extension to indicate to the server which signat ... " />
+            <marker date="1538413341802" expanded="true" signature="24815:24927" ph="///     Path to client's private key (PEM) used for authentication. ... " />
+            <marker date="1538413341802" expanded="true" signature="25069:25144" ph="///     Private key passphrase ... " />
+            <marker date="1538413341802" expanded="true" signature="25286:25397" ph="///     Path to client's public key (PEM) used for authentication. ... " />
+            <marker date="1538413341802" expanded="true" signature="25563:25691" ph="///     File or directory path to CA certificate(s) for verifying the broker's key. ... " />
+            <marker date="1538413341802" expanded="true" signature="25830:25939" ph="///     Path to CRL for verifying broker's certificate validity. ... " />
+            <marker date="1538413341802" expanded="true" signature="26081:26194" ph="///     Path to client's keystore (PKCS##12) used for authentication. ... " />
+            <marker date="1538413341802" expanded="true" signature="26351:26441" ph="///     Client's keystore (PKCS##12) password. ... " />
+            <marker date="1538413341802" expanded="true" signature="26598:26724" ph="///     Kerberos principal name that Kafka runs as, not including /hostname@REALM ... " />
+            <marker date="1538413341802" expanded="true" signature="26895:27051" ph="///     This client's Kerberos principal name. (Not supported on Windows, will use the logon user's principal). ... " />
+            <marker date="1538413341802" expanded="true" signature="27214:27418" ph="///     Full kerberos kinit command string, %{config.prop.name} is replaced by corresponding config object value, ... " />
+            <marker date="1538413341802" expanded="true" signature="27580:27833" ph="///     Path to Kerberos keytab file. Uses system default if not set.**NOTE**: This is not automatically used but ... " />
+            <marker date="1538413341802" expanded="true" signature="27987:28098" ph="///     Minimum time in milliseconds between key refresh attempts. ... " />
+            <marker date="1538413341802" expanded="true" signature="28301:28419" ph="///     SASL username for use with the PLAIN and SASL-SCRAM-.. mechanisms ... " />
+            <marker date="1538413341802" expanded="true" signature="28553:28670" ph="///     SASL password for use with the PLAIN and SASL-SCRAM-.. mechanism ... " />
+            <marker date="1538413341802" expanded="true" signature="28804:29130" ph="///     List of plugin libraries to load (; separated). The library search path is platform dependent (see dlopen ... " />
+            <marker date="1538413341802" expanded="true" signature="29284:29424" ph="///     Client group id string. All clients sharing the same group.id belong to the same group. ... " />
+            <marker date="1538413341802" expanded="true" signature="29543:29703" ph="///     Name of partition assignment strategy to use when elected group leader assigns partitions to group member ... " />
+            <marker date="1538413341802" expanded="true" signature="29989:30093" ph="///     Client group session and failure detection timeout. ... " />
+            <marker date="1538413341802" expanded="true" signature="30242:30338" ph="///     Group session keepalive heartbeat interval. ... " />
+            <marker date="1538413341802" expanded="true" signature="30496:30568" ph="///     Group protocol type ... " />
+            <marker date="1538413341802" expanded="true" signature="30719:30992" ph="///     How often to query for the current client group coordinator. If the currently assigned coordinator is dow ... " />
+            <marker date="1538413341802" expanded="true" signature="31186:31267" ph="///     AdminClient configuration properties ... " />
+            <marker date="1538413341802" expanded="true" signature="31317:32214" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="31332:31450" ph="///     Initialize a new empty &lt;see cref=&quot;AdminClientConfig&quot; /&gt; instance. ... " />
+            <marker date="1538413341802" expanded="true" signature="31498:31684" ph="///     Initialize a new &lt;see cref=&quot;AdminClientConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="31849:32024" ph="///     Initialize a new &lt;see cref=&quot;AdminClientConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="32221:32299" ph="///     Producer configuration properties ... " />
+            <marker date="1538413341802" expanded="true" signature="32346:40797" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="32361:32476" ph="///     Initialize a new empty &lt;see cref=&quot;ProducerConfig&quot; /&gt; instance. ... " />
+            <marker date="1538413341802" expanded="true" signature="32521:32704" ph="///     Initialize a new &lt;see cref=&quot;ProducerConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="32866:33038" ph="///     Initialize a new &lt;see cref=&quot;ProducerConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="33229:33609" ph="///     Specifies whether or not the producer should start a background poll  ... " />
+            <marker date="1538413341802" expanded="true" signature="33804:34124" ph="///     Specifies whether to enable notification of delivery reports. Typically ... " />
+            <marker date="1538413341802" expanded="true" signature="34322:34718" ph="///     A comma separated list of fields that may be optionally set in delivery ... " />
+            <marker date="1538413341802" expanded="true" signature="34921:35031" ph="///     Maximum number of messages allowed on the producer queue. ... " />
+            <marker date="1538413341802" expanded="true" signature="35209:35392" ph="///     Maximum total message size sum allowed on the producer queue. This property has higher priority than queu ... " />
+            <marker date="1538413341802" expanded="true" signature="35564:35943" ph="///     Delay in milliseconds to wait for messages in the producer queue to accumulate before constructing messag ... " />
+            <marker date="1538413341802" expanded="true" signature="36066:36213" ph="///     How many times to retry sending a failing MessageSet. **Note:** retrying may cause reordering. ... " />
+            <marker date="1538413341802" expanded="true" signature="36379:36500" ph="///     The backoff time in milliseconds before retrying a protocol request. ... " />
+            <marker date="1538413341802" expanded="true" signature="36643:37156" ph="///     The threshold of outstanding not yet transmitted broker requests needed to backpressure the producer's me ... " />
+            <marker date="1538413341802" expanded="true" signature="37364:37534" ph="///     Maximum number of messages batched in one MessageSet. The total MessageSet size is also limited by messag ... " />
+            <marker date="1538413341802" expanded="true" signature="37683:38131" ph="///     This field indicates how many acknowledgements the leader broker must receive from ISR brokers before res ... " />
+            <marker date="1538413341802" expanded="true" signature="38240:38441" ph="///     The ack timeout of the producer request in milliseconds. This value is only enforced by the broker and re ... " />
+            <marker date="1538413341802" expanded="true" signature="38590:38969" ph="///     Local message timeout. This value is only enforced locally and limits the time a produced message waits f ... " />
+            <marker date="1538413341802" expanded="true" signature="39118:39333" ph="///     Producer queuing strategy. FIFO preserves produce ordering, while LIFO prioritizes new messages. WARNING: ... " />
+            <marker date="1538413341802" expanded="true" signature="39545:40102" ph="///     Partitioner: `random` - random distribution, `consistent` - CRC32 hash of key (Empty and NULL keys are ma ... " />
+            <marker date="1538413341802" expanded="true" signature="40288:40653" ph="///     Compression level parameter for algorithm selected by configuration property `compression.codec`. Higher  ... " />
+            <marker date="1538413341802" expanded="true" signature="40804:40882" ph="///     Consumer configuration properties ... " />
+            <marker date="1538413341802" expanded="true" signature="40929:47784" ph="{...}" />
+            <marker date="1538413341802" expanded="true" signature="40944:41059" ph="///     Initialize a new empty &lt;see cref=&quot;ConsumerConfig&quot; /&gt; instance. ... " />
+            <marker date="1538413341802" expanded="true" signature="41104:41287" ph="///     Initialize a new &lt;see cref=&quot;ConsumerConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="41449:41621" ph="///     Initialize a new &lt;see cref=&quot;ConsumerConfig&quot; /&gt; instance based on ... " />
+            <marker date="1538413341802" expanded="true" signature="41812:42385" ph="///     A comma separated list of fields that may be optionally set ... " />
+            <marker date="1538413341802" expanded="true" signature="42513:42833" ph="///     Automatically and periodically commit offsets in the background. Note: setting this to false does not pre ... " />
+            <marker date="1538413341802" expanded="true" signature="42984:43199" ph="///     The frequency in milliseconds that the consumer offsets are committed (written) to offset storage. (0 = d ... " />
+            <marker date="1538413341802" expanded="true" signature="43362:43482" ph="///     Automatically store offset of last message provided to application. ... " />
+            <marker date="1538413341802" expanded="true" signature="43650:43807" ph="///     Minimum number of messages per topic+partition librdkafka tries to maintain in the local consumer queue. ... " />
+            <marker date="1538413341802" expanded="true" signature="43959:44203" ph="///     Maximum number of kilobytes per topic+partition in the local consumer queue. This value may be overshot b ... " />
+            <marker date="1538413341802" expanded="true" signature="44375:44503" ph="///     Maximum time the broker may wait to fill the response with fetch.min.bytes. ... " />
+            <marker date="1538413341802" expanded="true" signature="44648:44939" ph="///     Initial maximum number of bytes per topic+partition to request when fetching messages from the broker. If ... " />
+            <marker date="1538413341802" expanded="true" signature="45108:45733" ph="///     Maximum amount of data the broker shall return for a Fetch request. Messages are fetched in batches by th ... " />
+            <marker date="1538413341802" expanded="true" signature="45873:46080" ph="///     Minimum number of bytes the broker responds with. If fetch.wait.max.ms expires the accumulated data will  ... " />
+            <marker date="1538413341802" expanded="true" signature="46220:46364" ph="///     How long to postpone the next fetch request for a topic+partition in case of a fetch error. ... " />
+            <marker date="1538413341802" expanded="true" signature="46524:46674" ph="///     Emit RD_KAFKA_RESP_ERR__PARTITION_EOF event whenever the consumer reaches the end of a partition. ... " />
+            <marker date="1538413341802" expanded="true" signature="46831:47040" ph="///     Verify CRC32 of consumed messages, ensuring no on-the-wire or on-disk corruption to the messages occurred ... " />
+            <marker date="1538413341802" expanded="true" signature="47168:47573" ph="///     Action to take when there is no initial offset in offset store or the desired offset is out of range: 'sm ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Consumer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <marker date="1538413341041" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413341041" expanded="false" signature="747:880" ph="..." />
+            <marker date="1538413341041" expanded="true" signature="883:960" ph="/*     Demonstrates use of the Consumer client. ... */" />
+            <marker date="1538413341041" expanded="true" signature="1004:8483" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="1031:8481" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="1046:1246" ph="///     In this example ... " />
+            <marker date="1538413341041" expanded="true" signature="1362:5173" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="1429:1727" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="1842:5163" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="1873:2768" ph="/* Note: All event handlers are called on the main .Consume thread. ... */" />
+            <marker date="1538413341041" expanded="true" signature="3759:5114" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="3801:4933" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="4141:4911" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="4196:4714" ph="/* The Commit method sends a &quot;commit offsets&quot; request to the Kafka ... */" />
+            <marker date="1538413341041" expanded="true" signature="4980:5096" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="5183:5501" ph="///     In this example ... " />
+            <marker date="1538413341041" expanded="true" signature="5622:7312" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="5689:6234" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="5707:5862" ph="/* the group.id property must be specified when creating a consumer, even ... */" />
+            <marker date="1538413341041" expanded="true" signature="5975:6180" ph="/* partition offsets can be committed to a group even by consumers not ... */" />
+            <marker date="1538413341041" expanded="true" signature="6308:7302" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="6775:7253" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="6817:7072" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="7119:7235" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="7508:8475" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="7551:7633" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="7954:8073" ph="{...}" />
+            <marker date="1538413341041" expanded="true" signature="8101:8465" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/TopicMetadata.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <folding>
+            <marker date="1538409150103" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538409150103" expanded="false" signature="747:812" ph="..." />
+            <marker date="1538409150103" expanded="true" signature="840:2749" ph="{...}" />
+            <marker date="1538409150103" expanded="true" signature="847:936" ph="///     Metadata pertaining to a single Kafka topic. ... " />
+            <marker date="1538409150103" expanded="true" signature="967:2747" ph="{...}" />
+            <marker date="1538409150103" expanded="true" signature="982:1445" ph="///     Initializes a new TopicMetadata class instance. ... " />
+            <marker date="1538409150103" expanded="true" signature="1537:1648" ph="{...}" />
+            <marker date="1538409150103" expanded="true" signature="1658:1731" ph="///     Gets the topic name. ... " />
+            <marker date="1538409150103" expanded="true" signature="1778:1879" ph="///     Gets metadata for each of the topics partitions. ... " />
+            <marker date="1538409150103" expanded="true" signature="1948:2087" ph="///     A rich &lt;see cref=&quot;Error&quot;/&gt; object associated with the request for this topic metadata. ... " />
+            <marker date="1538409150103" expanded="true" signature="2133:2353" ph="///     Returns a JSON representation of the TopicMetadata object. ... " />
+            <marker date="1538409150103" expanded="true" signature="2395:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D9FB39F-0543-4D59-8CDB-0F6313D04C28/63/84eb349f/Serializers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/hocon.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Producer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <marker date="1538413341136" expanded="true" signature="0:739" ph="/* Copyright 2016-2017 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413341136" expanded="false" signature="747:877" ph="..." />
+            <marker date="1538413341136" expanded="true" signature="923:4439" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="950:4437" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="1009:4431" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="1053:1174" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="1409:4421" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="2203:2338" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="2375:4135" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="2492:2587" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="2627:2796" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="2834:3024" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="2881:2971" ph="/* Console returned null before ... */" />
+            <marker date="1538413341136" expanded="true" signature="3259:3416" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="3441:3925" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="3488:3663" ph="/* Awaiting the asynchronous produce request below prevents flow of execution ... */" />
+            <marker date="1538413341136" expanded="true" signature="3970:4117" ph="{...}" />
+            <marker date="1538413341136" expanded="true" signature="4153:4407" ph="/* Since we are producing synchronously, at this point there will be no messages ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Serializers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+          <folding>
+            <marker date="1538413342785" expanded="false" signature="6:32" ph="..." />
+            <marker date="1538413342785" expanded="true" signature="60:7666" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="67:200" ph="///     Serializers that can be used with &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt;. ... " />
+            <marker date="1538413342785" expanded="true" signature="236:7664" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="251:343" ph="///     Encodes a string value in a byte array. ... " />
+            <marker date="1538413342785" expanded="true" signature="408:565" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="448:505" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="576:658" ph="///     Encodes a Null value to null. ... " />
+            <marker date="1538413342785" expanded="true" signature="737:1359" ph="///     Serializes the specified &lt;see cref=&quot;System.Int64&quot;/&gt; value to a byte array of length 8. Byte order is big  ... " />
+            <marker date="1538413342785" expanded="true" signature="1418:1846" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="1856:2478" ph="///     Serializes the specified &lt;see cref=&quot;System.Int32&quot;/&gt; value to a byte array of length 4. Byte order is big  ... " />
+            <marker date="1538413342785" expanded="true" signature="2537:3212" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="2632:2975" ph="/* network byte order -&gt; big endian -&gt; most significant byte in the smallest address. ... */" />
+            <marker date="1538413342785" expanded="true" signature="3222:3805" ph="///     Serializes the specified System.Single value to a byte array of length 4. Byte order is big endian (netwo ... " />
+            <marker date="1538413342785" expanded="true" signature="3866:4397" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="3921:4290" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="3958:4276" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="4307:4387" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="4407:4990" ph="///     Serializes the specified System.Double value to a byte array of length 8. Byte order is big endian (netwo ... " />
+            <marker date="1538413342785" expanded="true" signature="5053:5736" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="5108:5629" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="5145:5615" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="5646:5726" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="5746:5918" ph="///     Serializes the specified System.Byte[] value (or null) to  ... " />
+            <marker date="1538413342785" expanded="true" signature="6004:6220" ph="///     Generators for the standard serializers (simply return the  ... " />
+            <marker date="1538413342785" expanded="true" signature="6259:7658" ph="{...}" />
+            <marker date="1538413342785" expanded="true" signature="6282:6406" ph="///     Generates a UTF8 serializer (invariant on the value of forKey). ... " />
+            <marker date="1538413342785" expanded="true" signature="6511:6635" ph="///     Generates a Null serializer (invariant on the value of forKey). ... " />
+            <marker date="1538413342785" expanded="true" signature="6738:6863" ph="///     Generates a Int32 serializer (invariant on the value of forKey). ... " />
+            <marker date="1538413342785" expanded="true" signature="6969:7093" ph="///     Generates a Long serializer (invariant on the value of forKey). ... " />
+            <marker date="1538413342785" expanded="true" signature="7196:7321" ph="///     Generates a Float serializer (invariant on the value of forKey). ... " />
+            <marker date="1538413342785" expanded="true" signature="7427:7553" ph="///     Generates a Double serializer (invariant on the value of forKey). ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D9FB39F-0543-4D59-8CDB-0F6313D04C28/66/09264b11/Producer`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/MultiProducer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <folding>
+            <marker date="1538413341091" expanded="true" signature="0:636" ph="/* Copyright 2016-2017 Confluent Inc. ... */" />
+            <marker date="1538413341091" expanded="false" signature="644:704" ph="..." />
+            <marker date="1538413341091" expanded="true" signature="755:2304" ph="{...}" />
+            <marker date="1538413341091" expanded="true" signature="762:916" ph="///     An example showing how to wrap a single Producer to produce messages using ... " />
+            <marker date="1538413341091" expanded="true" signature="941:2302" ph="{...}" />
+            <marker date="1538413341091" expanded="true" signature="994:2296" ph="{...}" />
+            <marker date="1538413341091" expanded="true" signature="1153:2286" ph="{...}" />
+            <marker date="1538413341091" expanded="true" signature="1595:1734" ph="/* write (null, int) data to topic &quot;second-data&quot;. statically type checked, using ... */" />
+            <marker date="1538413341091" expanded="true" signature="1847:2014" ph="/* producers are not tied to topics. Although it's unusual that you might want to ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderLocationUpdatedCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41FF9904-11FC-44E2-ABB3-76207A9A54A4/ec/9a23f8d5/ContinuationTaskFromTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/6d/a3db7908/Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Stages/ProducerStage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <marker date="1540494294734" expanded="false" signature="6:220" ph="..." />
+            <marker date="1540494294734" expanded="true" signature="257:6076" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="383:1518" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="969:1224" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="1416:1512" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="1588:6074" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="2034:4510" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="2357:3928" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="2616:3795" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="2689:2795" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="2824:3581" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="2984:3555" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="3135:3272" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="3671:3773" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="3969:4153" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="4202:4382" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="4434:4498" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="4551:4765" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="4806:5186" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="4953:5146" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="5252:5548" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="5413:5538" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="5590:6068" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="5675:6058" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="5825:5918" ph="{...}" />
+            <marker date="1540494294734" expanded="true" signature="5971:6044" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Confluent.Kafka/Producer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="656" column="37" selection-start-line="656" selection-start-column="37" selection-end-line="656" selection-end-column="37" />
+          <folding>
+            <marker date="1538413342766" expanded="true" signature="0:739" ph="/* Copyright 2016-2018 Confluent Inc., 2015-2016 Andreas Heider ... */" />
+            <marker date="1538413342766" expanded="false" signature="747:996" ph="..." />
+            <marker date="1538413342766" expanded="true" signature="1024:49475" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="1031:1406" ph="///     A serializer for use with &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="1476:1768" ph="///     A generator for &lt;see cref=&quot;Confluent.Kafka.Serializer{T}&quot; /&gt; instances. ... " />
+            <marker date="1538413342766" expanded="true" signature="1845:1981" ph="///     Implements a high-level Apache Kafka producer with key ... " />
+            <marker date="1538413342766" expanded="true" signature="2047:29012" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="2391:4215" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="2593:2724" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="2764:3454" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="2828:2943" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3000:3120" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3177:3292" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3314:3440" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3496:4205" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3562:3681" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3740:3864" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="3923:4042" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="4063:4191" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="4226:4971" ph="///     Creates a new Producer instance. ... " />
+            <marker date="1538413342766" expanded="true" signature="5258:6065" ph="///     Creates a new Producer instance. ... " />
+            <marker date="1538413342766" expanded="true" signature="6280:6657" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="6668:7119" ph="///     Creates a new Producer instance ... " />
+            <marker date="1538413342766" expanded="true" signature="7277:7663" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="7332:7458" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="7674:8187" ph="///     Creates a new Producer instance ... " />
+            <marker date="1538413342766" expanded="true" signature="8367:8899" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="8422:8548" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="8910:9015" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.Name&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="9219:11133" ph="///     Wait until all outstanding produce requests and delievery report ... " />
+            <marker date="1538413342766" expanded="true" signature="11273:12141" ph="///     Wait until all outstanding produce requests and delievery report ... " />
+            <marker date="1538413342766" expanded="true" signature="12204:12638" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="12239:12628" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="12327:12391" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="12454:12614" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="12774:13382" ph="///     Poll for callback events. Typically, you should not  ... " />
+            <marker date="1538413342766" expanded="true" signature="13520:14030" ph="///     Releases all resources used by this Producer. In the current ... " />
+            <marker date="1538413342766" expanded="true" signature="14060:14146" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="14157:14574" ph="///     Releases the unmanaged resources used by the ... " />
+            <marker date="1538413342766" expanded="true" signature="14629:14838" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="14666:14828" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="14735:14814" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="14849:14956" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnLog&quot; /&gt;. ... " />
+            <marker date="1538413342766" expanded="true" signature="15008:15129" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="15139:15253" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnStatistics&quot; /&gt;. ... " />
+            <marker date="1538413342766" expanded="true" signature="15308:15443" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="15453:15562" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnError&quot; /&gt;. ... " />
+            <marker date="1538413342766" expanded="true" signature="15616:15741" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="15759:15878" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.AddBrokers(string)&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="15989:16393" ph="///     An opaque reference to the underlying librdkafka client instance. ... " />
+            <marker date="1538413342766" expanded="true" signature="16570:18667" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="16757:16872" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="17063:18657" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="17121:17327" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="17403:17811" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="17561:17793" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="17829:17950" ph="/* topic is cached in this object, not set in the deliveryReport to avoid the ... */" />
+            <marker date="1538413342766" expanded="true" signature="18045:18216" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="18237:18350" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="18742:20370" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="18891:19041" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="19304:20360" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="19362:19426" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="19508:20066" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="19677:20048" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="20084:20205" ph="/* topic is cached in this object, not set in the deliveryReport to avoid the ... */" />
+            <marker date="1538413342766" expanded="true" signature="20277:20346" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="20381:21214" ph="///     Asynchronously send a single message to a Kafka topic. ... " />
+            <marker date="1538413342766" expanded="true" signature="21388:23134" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="21451:22318" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="22335:23124" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="22876:23060" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="23145:23829" ph="///     Asynchronously send a single message to a Kafka topic/partition. ... " />
+            <marker date="1538413342766" expanded="true" signature="24020:25905" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="24083:25040" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="25057:25895" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="25673:25831" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="25916:26456" ph="///     Asynchronously send a single message to a Kafka topic/partition. ... " />
+            <marker date="1538413342766" expanded="true" signature="26618:27426" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="27437:28126" ph="///     Asynchronously send a single message to a Kafka topic. ... " />
+            <marker date="1538413342766" expanded="true" signature="28271:29006" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="29020:29124" ph="///     A high-level Apache Kafka producer (without serialization). ... " />
+            <marker date="1538413342766" expanded="true" signature="29162:49473" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="29213:31188" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="29236:29335" ph="///     The topic associated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="29395:29498" ph="///     The partition associated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="29582:29692" ph="///     The partition offset associated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="29771:29882" ph="///     An error (or NoError) associated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="29941:30049" ph="///     The TopicPartition associated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="30169:30283" ph="///     The TopicPartitionOffset associated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="30429:30548" ph="///     The TopicPartitionOffsetError assoicated with the message. ... " />
+            <marker date="1538413342766" expanded="true" signature="30619:31024" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="30653:30780" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="30800:31010" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="31038:31129" ph="///     The message that was produced. ... " />
+            <marker date="1538413342766" expanded="true" signature="32003:32388" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="32045:32312" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="32104:32290" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="32616:32906" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="33072:33437" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="33648:34125" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="33671:33925" ph="/* Ensure registered handlers are never called as a side-effect of Dispose/Finalize (prevents deadlocks in common ... */" />
+            <marker date="1538413342766" expanded="true" signature="34210:34387" ph="/// &lt;remarks&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="34479:37370" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="34778:34988" ph="/* the msg._private property has dual purpose. Here, it is an opaque pointer set ... */" />
+            <marker date="1538413342766" expanded="true" signature="35033:35255" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="35064:35217" ph="/* Note: this can occur if the ProduceAsync overload that accepts a DeliveryHandler ... */" />
+            <marker date="1538413342766" expanded="true" signature="35490:36512" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="35664:36498" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="35723:36480" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="35935:36022" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="36202:36396" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="36663:36779" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="36890:37345" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="36912:37068" ph="/* Topic is not set here in order to avoid the marshalling cost. ... */" />
+            <marker date="1538413342766" expanded="true" signature="37694:39591" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="37764:38017" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="37830:38003" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="38089:39087" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="38120:38490" ph="/* Passes the TaskCompletionSource to the delivery report callback via the msg_opaque pointer ... */" />
+            <marker date="1538413342766" expanded="true" signature="38954:39073" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="39104:39581" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="39480:39567" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="39602:39709" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnLog&quot; /&gt;. ... " />
+            <marker date="1538413342766" expanded="true" signature="39772:39881" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnError&quot; /&gt;. ... " />
+            <marker date="1538413342766" expanded="true" signature="39946:40060" ph="///     Refer to &lt;see cref=&quot;Confluent.Kafka.IClient.OnStatistics&quot; /&gt;. ... " />
+            <marker date="1538413342766" expanded="true" signature="40127:40233" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="40307:46069" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="40330:40634" ph="/* TODO: Make Tasks auto complete when EnableDeliveryReportsPropertyName is set to false. ... */" />
+            <marker date="1538413342766" expanded="true" signature="41171:41687" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="41202:41551" ph="/* A managed object is kept alive over the duration of the produce request. If there is no ... */" />
+            <marker date="1538413342766" expanded="true" signature="41878:41989" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="42183:42305" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="42510:43895" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="42650:43881" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="42954:43863" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="43083:43841" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="43151:43815" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="43909:44200" ph="/* Note: changing the default value of produce.offset.report at the binding level is less than ... */" />
+            <marker date="1538413342766" expanded="true" signature="44306:44496" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="44610:44816" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="44926:45036" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="45292:45470" ph="/* TODO: provide some mechanism whereby calls to the error and log callbacks are cached until ... */" />
+            <marker date="1538413342766" expanded="true" signature="45905:46059" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="46122:46382" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="46161:46300" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="46393:46499" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="46716:46822" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="46946:47052" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="47082:47168" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="47179:47285" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="47340:48856" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="47631:48846" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="47683:48446" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="47767:48023" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="47814:47956" ph="/* Note: It's necessary to wait on callbackTask before disposing kafkaHandle ... */" />
+            <marker date="1538413342766" expanded="true" signature="48072:48309" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="48183:48287" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="48337:48428" ph="{...}" />
+            <marker date="1538413342766" expanded="true" signature="48464:48793" ph="/* calls to rd_kafka_destroy may result in callbacks ... */" />
+            <marker date="1538413342766" expanded="true" signature="48867:48973" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="49044:49150" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+            <marker date="1538413342766" expanded="true" signature="49255:49361" ph="///     &lt;see cref=&quot;Confluent.Kafka.Producer{TKey, TValue}&quot; /&gt; ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8C816D01-7240-465F-A3A7-26054C6630D7/44/b27aa297/Status.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Settings/ProducerSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="76" column="98" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="98" />
+          <folding>
+            <marker date="1540493478103" expanded="false" signature="6:116" ph="..." />
+            <marker date="1540493478103" expanded="true" signature="155:3745" ph="{...}" />
+            <marker date="1540493478103" expanded="true" signature="212:3743" ph="{...}" />
+            <marker date="1540493478103" expanded="true" signature="428:696" ph="{...}" />
+            <marker date="1540493478103" expanded="true" signature="2526:2777" ph="{...}" />
+            <marker date="1540493478103" expanded="true" signature="2921:3556" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka/Dsl/KafkaProducer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="67" />
+          <folding>
+            <marker date="1540494350430" expanded="false" signature="6:179" ph="..." />
+            <marker date="1540494350430" expanded="true" signature="213:3243" ph="{...}" />
+            <marker date="1540494350430" expanded="true" signature="220:323" ph="/// Akka Stream connector for publishing messages to Kafka topics. ... " />
+            <marker date="1540494350430" expanded="true" signature="361:3241" ph="{...}" />
+            <marker date="1540494350430" expanded="true" signature="376:492" ph="/// The `PlainSink` can be used for publishing records to Kafka topics. ... " />
+            <marker date="1540494350430" expanded="true" signature="618:854" ph="{...}" />
+            <marker date="1540494350430" expanded="true" signature="864:980" ph="/// The `PlainSink` can be used for publishing records to Kafka topics. ... " />
+            <marker date="1540494350430" expanded="true" signature="1140:1386" ph="{...}" />
+            <marker date="1540494350430" expanded="true" signature="1396:1654" ph="/// Publish records to Kafka topics and then continue the flow. Possibility to pass through a message, which ... " />
+            <marker date="1540494350430" expanded="true" signature="1819:2301" ph="{...}" />
+            <marker date="1540494350430" expanded="true" signature="2311:2569" ph="/// Publish records to Kafka topics and then continue the flow. Possibility to pass through a message, which ... " />
+            <marker date="1540494350430" expanded="true" signature="2768:3235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/Provider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+          <folding>
+            <marker date="1541019288152" expanded="true" signature="6:49" ph="..." />
+            <marker date="1541019288152" expanded="true" signature="86:3178" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="121:205" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="251:2468" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="569:1620" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="866:1376" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="1430:1608" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="1846:2462" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="2498:2752" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="2566:2654" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="2794:3176" ph="{...}" />
+            <marker date="1541019288152" expanded="true" signature="2898:3023" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/ProviderCoordinator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <marker date="1541019522804" expanded="true" signature="6:140" ph="..." />
+            <marker date="1541019522804" expanded="true" signature="177:1892" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="220:320" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="361:459" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="501:601" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="658:1890" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="815:1695" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="877:1341" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="1004:1222" ph="{...}" />
+            <marker date="1541019522804" expanded="true" signature="1406:1683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/IntegrationEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541080270486" expanded="true" signature="35:305" ph="{...}" />
+            <marker date="1541080270486" expanded="true" signature="79:303" ph="{...}" />
+            <marker date="1541080270486" expanded="true" signature="144:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+          <folding>
+            <marker date="1541080312645" expanded="false" signature="6:487" ph="..." />
+            <marker date="1541080312645" expanded="true" signature="524:3160" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="544:2460" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="652:2454" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="1157:1507" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="1246:1324" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="2504:3157" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="2692:2774" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="2844:3151" ph="{...}" />
+            <marker date="1541080312645" expanded="true" signature="3001:3079" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ProviderLocationPublisher/IEventBus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1541080323178" expanded="true" signature="66:230" ph="{...}" />
+            <marker date="1541080323178" expanded="true" signature="99:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

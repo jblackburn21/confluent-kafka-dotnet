@@ -46,6 +46,8 @@ namespace Confluent.Kafka.Examples.AvroSpecific
                 // Note: you can specify more than one schema registry url using the
                 // schemaRegistryUrl property for redundancy (comma separated list).
                 SchemaRegistryUrl = schemaRegistryUrl,
+
+                SchemaRegistrySubjectNameStrategy = "topic_record_name_strategy"
                 // optional schema registry client properties:
                 // SchemaRegistryRequestTimeoutMs = 5000, 
                 // SchemaRegistryMaxCachedSchemas = 10,
@@ -90,6 +92,19 @@ namespace Confluent.Kafka.Examples.AvroSpecific
                         try
                         {
                             var consumeResult = consumer.Consume(cts.Token);
+
+
+//                            foreach (var VARIABLE in consumeResult.Value)
+//                            {
+//                                
+//                            }
+//
+//                            consumeResult.Message.Value
+
+                            var reader = new DefaultReader(consumeResult.Value.Schema, consumeResult.Value.Schema);
+
+                            reader.Read()
+
                             Console.WriteLine($"Key: {consumeResult.Message.Key}\nValue: {consumeResult.Value}");
                         }
                         catch (ConsumeException e)
