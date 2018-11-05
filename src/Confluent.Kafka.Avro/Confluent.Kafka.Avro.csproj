@@ -14,7 +14,7 @@
     <Title>Confluent.Kafka.Avro</Title>
     <AssemblyName>Confluent.Kafka.Avro</AssemblyName>
     <VersionPrefix>1.0-beta</VersionPrefix>
-    <TargetFrameworks>netstandard2.0;net452;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

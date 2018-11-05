@@ -60,6 +60,7 @@ namespace AvroBlogExample
                             File.ReadAllText("LogLevel.asvc")));
 
                 var record = new GenericRecord(logMessageSchema);
+                
                 record.Add("IP", "127.0.0.1");
                 record.Add("Message", "a test log message");
                 record.Add("Severity", new GenericEnum(logLevelSchema, "Error"));

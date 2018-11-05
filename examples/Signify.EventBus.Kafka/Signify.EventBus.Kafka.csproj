@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Confluent.Kafka.Avro\Confluent.Kafka.Avro.csproj" />
+      <ProjectReference Include="..\..\src\Confluent.Kafka\Confluent.Kafka.csproj" />
+      <ProjectReference Include="..\Signify.EventBus\Signify.EventBus.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    </ItemGroup>
+
+</Project>

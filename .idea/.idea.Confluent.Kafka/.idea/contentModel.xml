@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\repos\github\akka\Alpakka\Kafka\src\Akka.Streams.Kafka" t="IncludeRecursive">
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x64/native/librdkafka.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x64/native/librdkafkacpp.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x64/native/msvcr120.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x64/native/zlib.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x86/native/librdkafka.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x86/native/librdkafkacpp.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x86/native/msvcr120.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/librdkafka.redist/0.11.6-rc3/runtimes/win-x86/native/zlib.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/_common/xunit.abstractions.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/_common/xunit.runner.reporters.net452.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/_common/xunit.runner.utility.net35.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/_common/xunit.runner.visualstudio.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/_common/xunit.abstractions.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/_common/xunit.runner.reporters.net452.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/_common/xunit.runner.utility.net452.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/_common/xunit.runner.visualstudio.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Confluent.Kafka.-474025682.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../../akka/Alpakka/Kafka/src/Akka.Streams.Kafka" t="IncludeRecursive">
       <e p="Akka.Streams.Kafka.csproj" t="IncludeRecursive" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Dsl" t="Include">
-        <e p="KafkaConsumer.cs" t="Include" />
-        <e p="KafkaProducer.cs" t="Include" />
-      </e>
-      <e p="Messages" t="Include">
-        <e p="CommittableMessage.cs" t="Include" />
-        <e p="TopicAndMessage.cs" t="Include" />
-      </e>
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netstandard1.6" t="Include">
-            <e p="Akka.Streams.Kafka.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
-      <e p="reference.conf" t="Include" />
-      <e p="Settings" t="Include">
-        <e p="ConsumerSettings.cs" t="Include" />
-        <e p="KafkaExtensions.cs" t="Include" />
-        <e p="ProducerSettings.cs" t="Include" />
-        <e p="Subscriptions.cs" t="Include" />
-      </e>
-      <e p="Stages" t="Include">
-        <e p="CommittableConsumerStage.cs" t="Include" />
-        <e p="ConsumerStage.cs" t="Include" />
-        <e p="ProducerStage.cs" t="Include" />
-      </e>
     </e>
-    <e p="C:\repos\github\jblackburn21\confluent-kafka-dotnet" t="IncludeFlat">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Confluent.Kafka.sln" t="IncludeFlat" />
       <e p="examples" t="Include">
         <e p="AdminClient" t="IncludeRecursive">
@@ -69,9 +65,6 @@
             </e>
           </e>
           <e p="Program.cs" t="Include" />
-          <e p="Properties" t="Include">
-            <e p="launchSettings.json" t="Include" />
-          </e>
           <e p="ProviderLocationUpdated.V1.asvc" t="Include" />
           <e p="README.md" t="Include" />
         </e>
@@ -86,9 +79,6 @@
             </e>
           </e>
           <e p="Program.cs" t="Include" />
-          <e p="Properties" t="Include">
-            <e p="launchSettings.json" t="Include" />
-          </e>
         </e>
         <e p="AvroSpecific" t="IncludeRecursive">
           <e p="AvroSpecific.csproj" t="IncludeRecursive" />
@@ -153,11 +143,22 @@
           <e p="Producer.csproj" t="IncludeRecursive" />
           <e p="Program.cs" t="Include" />
         </e>
+        <e p="ProviderLocationConsumer" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="log.clef" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="ProviderLocationConsumer.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="ProviderLocationConsumer.csproj" t="IncludeRecursive" />
+        </e>
         <e p="ProviderLocationPublisher" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="hocon.conf" t="Include" />
-          <e p="IEventBus.cs" t="Include" />
-          <e p="IntegrationEvent.cs" t="Include" />
           <e p="log.clef" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -170,6 +171,34 @@
           <e p="Provider.cs" t="Include" />
           <e p="ProviderCoordinator.cs" t="Include" />
           <e p="ProviderLocationPublisher.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Signify.EventBus" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="IEventBus.cs" t="Include" />
+          <e p="IntegrationEvent.cs" t="Include" />
+          <e p="MessageContext.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Signify.EventBus.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Signify.EventBus.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Signify.EventBus.Kafka" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="KafkaConsumer.cs" t="Include" />
+          <e p="KafkaConsumerClient.cs" t="Include" />
+          <e p="KafkaEventBus.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Signify.EventBus.Kafka.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Signify.EventBus.Kafka.csproj" t="IncludeRecursive" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
@@ -280,12 +309,6 @@
           <e p="Null.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="net45" t="Include">
-                <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
-              </e>
-              <e p="net46" t="Include">
-                <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
-              </e>
               <e p="netcoreapp2.1" t="Include">
                 <e p="Confluent.Kafka.AssemblyInfo.cs" t="Include" />
               </e>
@@ -325,9 +348,6 @@
           <e p="IAvroSerializerImpl.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="net452" t="Include">
-                <e p="Confluent.Kafka.Avro.AssemblyInfo.cs" t="Include" />
-              </e>
               <e p="netstandard2.0" t="Include">
                 <e p="Confluent.Kafka.Avro.AssemblyInfo.cs" t="Include" />
               </e>
@@ -345,9 +365,6 @@
           <e p="ISchemaRegistryClient.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="net452" t="Include">
-                <e p="Confluent.SchemaRegistry.AssemblyInfo.cs" t="Include" />
-              </e>
               <e p="netstandard1.4" t="Include">
                 <e p="Confluent.SchemaRegistry.AssemblyInfo.cs" t="Include" />
               </e>
@@ -403,10 +420,6 @@
           <e p="Confluent.Kafka.Avro.UnitTests.csproj" t="IncludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="net452" t="Include">
-                <e p="Confluent.Kafka.Avro.UnitTests.AssemblyInfo.cs" t="Include" />
-                <e p="Confluent.Kafka.Avro.UnitTests.Program.cs" t="Include" />
-              </e>
               <e p="netcoreapp2.1" t="Include">
                 <e p="Confluent.Kafka.Avro.UnitTests.AssemblyInfo.cs" t="Include" />
                 <e p="Confluent.Kafka.Avro.UnitTests.Program.cs" t="Include" />
@@ -511,9 +524,6 @@
           <e p="MoqExample.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="net452" t="Include">
-                <e p="Confluent.Kafka.UnitTests.AssemblyInfo.cs" t="Include" />
-              </e>
               <e p="netcoreapp2.1" t="Include">
                 <e p="Confluent.Kafka.UnitTests.AssemblyInfo.cs" t="Include" />
                 <e p="Confluent.Kafka.UnitTests.Program.cs" t="Include" />
@@ -605,29 +615,5 @@
         </e>
       </e>
     </e>
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\librdkafka.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\librdkafkacpp.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\msvcr120.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x64\native\zlib.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\librdkafka.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\librdkafkacpp.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\msvcr120.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\librdkafka.redist\0.11.6-rc3\runtimes\win-x86\native\zlib.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.abstractions.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.runner.reporters.net452.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.runner.utility.net35.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\_common\xunit.runner.visualstudio.testadapter.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.reporters.netstandard15.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.utility.netstandard15.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.abstractions.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.reporters.net452.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.utility.net452.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\_common\xunit.runner.visualstudio.testadapter.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\jblackburn\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\jblackburn\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Confluent.Kafka.-1675183496.00" t="ExcludeRecursive" />
   </component>
 </project>

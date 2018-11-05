@@ -101,9 +101,9 @@ namespace Confluent.Kafka.Examples.AvroSpecific
 //
 //                            consumeResult.Message.Value
 
-                            var reader = new DefaultReader(consumeResult.Value.Schema, consumeResult.Value.Schema);
-
-                            reader.Read()
+//                            var reader = new DefaultReader(consumeResult.Value.Schema, consumeResult.Value.Schema);
+//
+//                            reader.Read()
 
                             Console.WriteLine($"Key: {consumeResult.Message.Key}\nValue: {consumeResult.Value}");
                         }

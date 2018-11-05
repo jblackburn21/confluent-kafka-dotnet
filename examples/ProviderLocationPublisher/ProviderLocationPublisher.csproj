@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\..\akka\Alpakka\Kafka\src\Akka.Streams.Kafka\Akka.Streams.Kafka.csproj" />
+      <ProjectReference Include="..\Signify.EventBus.Kafka\Signify.EventBus.Kafka.csproj" />
     </ItemGroup>
 
 </Project>
